@@ -6,6 +6,12 @@ Vue.use(Vuex);
 const store = new Vuex.Store({
   state: {
     stats: [],
+    selectedCity: '',
+  },
+  mutations: {
+    selectCity(state, city) {
+      state.selectedCity = city;
+    },
   },
 });
 
