@@ -1,6 +1,6 @@
 <!-- eslint-disable max-len -->
 <template>
-  <div class="hello">
+  <div class="container">
     <h1>Logements sociaux à Lyon</h1>
     <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
     viewBox="0 0 1423 1897" style="enable-background:new 0 0 1423 1897;" xml:space="preserve">
@@ -781,7 +781,7 @@
 
 <script>
 export default {
-  name: 'HelloWorld',
+  name: 'CitiesStats',
 };
 </script>
 
