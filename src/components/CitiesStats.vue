@@ -2,6 +2,7 @@
   <div class="cities-stats">
     <Header />
     <h1>Logements sociaux à Lyon</h1>
+    <Form />
     <div class="container">
       <Map />
       <Stats />
@@ -12,6 +13,7 @@
 
 <script>
 import Header from './Header.vue';
+import Form from './Form.vue';
 import Map from './Map.vue';
 import Stats from './Stats.vue';
 import Footer from './Footer.vue';
@@ -20,6 +22,7 @@ export default {
   name: 'CitiesStats',
   components: {
     Header,
+    Form,
     Map,
     Stats,
     Footer,
