@@ -9,13 +9,16 @@ const getters = {
 };
 
 const mutations = {
-  SELECT_CITY: (state, city) => {
-    const cityId = city.slice(4);
+  SELECT_CITY: (state, cityId) => {
     state.selectedCity = cityId;
   },
 };
 
-const actions = {};
+const actions = {
+  selectCity: (store, cityId) => {
+    store.commit('SELECT_CITY', cityId);
+  },
+};
 
 const state = {
   cities,
