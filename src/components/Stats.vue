@@ -23,9 +23,7 @@ export default {
   name: 'Stats',
   computed: {
     cityStats() {
-      const cityStats = this.$store.getters.getCityById(this.$store.state.selectedCity);
-      console.log(cityStats);
-      return cityStats;
+      return this.$store.getters.getCityById(this.$store.state.selectedCity);
     },
   },
 };
