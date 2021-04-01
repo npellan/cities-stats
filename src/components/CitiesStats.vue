@@ -11,16 +11,16 @@
 </template>
 
 <script>
-import Map from './Map.vue';
 import Header from './Header.vue';
+import Map from './Map.vue';
 import Stats from './Stats.vue';
 import Footer from './Footer.vue';
 
 export default {
   name: 'CitiesStats',
   components: {
-    Map,
     Header,
+    Map,
     Stats,
     Footer,
   },
