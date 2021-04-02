@@ -14,6 +14,18 @@
       <p>
         {{cityStats.social_housing_rate}} %
       </p>
+      <v-rating
+        v-model="rating"
+        length="10"
+        readonly
+      >
+        <template v-slot:item="props">
+          <v-icon
+            :color="props.isFilled ? '#FE605A' : 'grey'"
+            v-text="'mdi-human-male'"
+          ></v-icon>
+        </template>
+      </v-rating>
     </div>
   </div>
 </template>
@@ -25,6 +37,11 @@ export default {
     cityStats() {
       return this.$store.getters.getCityById(this.$store.state.selectedCity);
     },
+    rating() {
+      const ratingInt = parseInt(this.cityStats.social_housing_rate, 10);
+      const roundedRating = Math.round(ratingInt) / 10;
+      return roundedRating;
+    },
   },
 };
 </script>
@@ -33,5 +50,9 @@ export default {
 <style scoped lang="scss">
   .stats {
     width: 50%;
+  }
+
+  .v-rating .v-icon {
+    padding: 0;
   }
 </style>

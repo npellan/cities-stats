@@ -1,7 +1,9 @@
 <template>
-  <div id="app">
-    <CitiesStats />
-  </div>
+  <v-app>
+    <div id="app">
+        <CitiesStats />
+    </div>
+  </v-app>
 </template>
 
 <script>
