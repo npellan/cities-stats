@@ -22,7 +22,7 @@ const actions = {
 
 const state = {
   cities,
-  selectedCity: '',
+  selectedCity: '01',
   color_opacity: 0.5,
 };
 
