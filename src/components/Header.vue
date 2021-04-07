@@ -1,6 +1,12 @@
 <template>
   <div class="header">
-    <h2>Header</h2>
+    <h1 class="title">Inégalités et territoires</h1>
+    <nav class="menu">
+      <ul class="menu__list">
+        <li class="menu__item">Méthodologie</li>
+        <li class="menu__item">Contact</li>
+      </ul>
+    </nav>
   </div>
 </template>
 
@@ -12,4 +18,17 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin: 3rem 0 6rem;
+}
+
+.menu__list {
+  display: flex;
+}
+
+.menu__item {
+  padding-left: 1rem;
+}
 </style>
