@@ -1,11 +1,13 @@
 <template>
   <div class="header">
-    <h1 class="title">Inégalités et territoires</h1>
+    <div class="logo">
+      <router-link to="/"><img src="../assets/images/logo.svg" alt="logo"></router-link>
+    </div>
     <nav class="menu">
       <ul class="menu__list">
         <li class="menu__item"><router-link to="/carte">Carte</router-link></li>
-        <li class="menu__item"><router-link to="/carte">Méthodologie</router-link></li>
-        <li class="menu__item"><router-link to="/carte">Contact</router-link></li>
+        <li class="menu__item"><router-link to="/methodologie">Méthodologie</router-link></li>
+        <li class="menu__item"><router-link to="/contact">Contact</router-link></li>
       </ul>
     </nav>
   </div>
@@ -23,6 +25,10 @@ export default {
   display: flex;
   justify-content: space-between;
   margin: 3rem 0 5rem;
+}
+
+.logo img {
+  width: 100%;
 }
 
 .menu {
