@@ -48,7 +48,7 @@ export default {
 <style scoped lang="scss">
   .select {
     padding: 0.5rem;
-    border: 1px solid black;
+    border: 1px solid var(--v-color-base);
     appearance: auto;
     -webkit-appearance: auto;
     -moz-appearance: auto;

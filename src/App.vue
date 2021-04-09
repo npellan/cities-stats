@@ -22,7 +22,7 @@ export default {
 <style lang="scss">
   body {
     background-color: #ebebe3;
-    color: #4e4e4d
+    color: #4e4e4d;
   }
 
   @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&family=Oswald:wght@700&family=Playfair+Display:wght@400;500;600&display=swap');

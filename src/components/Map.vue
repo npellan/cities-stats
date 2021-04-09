@@ -368,6 +368,11 @@
           C602.3,860.1,620.4,850.1,630.6,872z"/>
       </g>
     </svg>
+    <div class="map__legend">
+      <p class="map__legend__text">0% de logements sociaux</p>
+      <div class="map__legend__colors"></div>
+      <p class="map__legend__text">60% de logements sociaux</p>
+    </div>
   </div>
 </template>
 
@@ -396,6 +401,29 @@ export default {
 <style scoped lang="scss">
   .map {
     width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .map__legend {
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: baseline;
+
+    &__text {
+      font-family: 'Playfair Display', sans-serif;
+      font-size: 0.5rem;
+    }
+
+    &__colors {
+      width: 30%;
+      margin: 0 1rem;
+      height: 5px;
+      background: linear-gradient(to right ,#356a94, #e0605b);
+    }
   }
 
   path:hover {
