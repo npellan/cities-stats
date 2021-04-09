@@ -29,7 +29,6 @@ export default {
 
   .v-application {
     width: 80%;
-    max-width: 1440px;
     margin: 0 auto;
     background-color: var(--v-background-base) !important;
     color: var(--v-color-base) !important;

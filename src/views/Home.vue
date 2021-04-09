@@ -11,5 +11,8 @@ export default {
 </script>
 
 <style>
-
+  .home h1 {
+    text-align: center;
+    font-size: 3rem;
+  }
 </style>

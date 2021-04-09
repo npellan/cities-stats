@@ -18,8 +18,13 @@ export default {
 };
 </script>
 
-<style>
+<style lang="scss">
   .map {
     display: flex;
+    justify-content: space-between;
+
+    @media screen and (max-width: 1024px) {
+        flex-direction: column;
+    }
   }
 </style>
