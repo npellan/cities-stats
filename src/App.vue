@@ -1,27 +1,19 @@
 <template>
   <v-app>
     <Header />
-
-    <div class="container">
-      <Map />
-      <Stats />
-    </div>
+    <router-view />
     <Footer />
   </v-app>
 </template>
 
 <script>
 import Header from './components/Header.vue';
-import Map from './components/Map.vue';
-import Stats from './components/Stats.vue';
 import Footer from './components/Footer.vue';
 
 export default {
   name: 'App',
   components: {
     Header,
-    Map,
-    Stats,
     Footer,
   },
 };

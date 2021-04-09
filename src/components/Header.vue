@@ -3,8 +3,8 @@
     <h1 class="title">Inégalités et territoires</h1>
     <nav class="menu">
       <ul class="menu__list">
-        <li class="menu__item">Méthodologie</li>
-        <li class="menu__item">Contact</li>
+        <router-link to="/carte"><li class="menu__item">Méthodologie</li></router-link>
+        <router-link to="/carte"><li class="menu__item">Contact</li></router-link>
       </ul>
     </nav>
   </div>
