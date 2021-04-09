@@ -25,15 +25,13 @@ export default {
     color: #4e4e4d
   }
 
+  @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&family=Oswald:wght@700&family=Playfair+Display:wght@400;500;600&display=swap');
+
   .v-application {
     width: 80%;
     max-width: 1440px;
     margin: 0 auto;
     background-color: var(--v-background-base) !important;
     color: var(--v-color-base) !important;
-  }
-
-  .container {
-    display: flex;
   }
 </style>
