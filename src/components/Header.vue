@@ -24,11 +24,26 @@ export default {
 .header {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   margin: 3rem 0 5rem;
+  line-height: 1;
+
+  @media screen and (max-width: 767px) {
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
-.logo img {
+.logo {
+  line-height: 1;
+
+  & img {
   width: 100%;
+  }
+
+  @media screen and (max-width: 767px) {
+    margin-bottom: 1rem;
+  }
 }
 
 .menu {
@@ -38,10 +53,18 @@ export default {
   & .menu__list {
   display: flex;
 
+  @media screen and (max-width: 767px) {
+    padding-left: 0;
+  }
+
     & .menu__item a {
       text-decoration: none;
       color: inherit;
       padding-left: 3rem;
+
+      @media screen and (max-width: 767px) {
+        padding: 1.5rem;
+      }
 
       &:hover {
         text-decoration: underline;
