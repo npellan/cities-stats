@@ -68,6 +68,7 @@ export default {
 
       &:hover {
         text-decoration: underline;
+        text-underline-offset: 3px;
       }
     }
   }
