@@ -86,6 +86,14 @@
             <p class="radar__legend__objective22">22% objectif 2022</p>
           </div>
       </div>
+      <div class="city__social-housing-legend">
+        <div class="city__social-housing-legend--blue">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. A voluptate recusandae temporibus facilis ut obcaecati dolorum fugiat ullam laborum culpa eligendi, velit minima, incidunt debitis magnam esse! Repellendus, beatae reiciendis.
+        </div>
+        <div class="city__social-housing-legend--red">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. A voluptate recusandae temporibus facilis ut obcaecati dolorum fugiat ullam laborum culpa eligendi, velit minima, incidunt debitis magnam esse! Repellendus, beatae reiciendis.
+        </div>
+      </div>
       <div class="city__numbers">
         <div class="city__poverty">
           <p class="city__poverty__rate">
@@ -170,7 +178,7 @@ export default {
     @media screen and (max-width: 1024px) {
       width: 100%;
       order: -1;
-      margin-bottom: 3rem;
+      margin-bottom: 5rem;
     }
   }
 
@@ -244,6 +252,13 @@ export default {
         width: 200px;
       }
     }
+  }
+
+  .city__social-housing-legend {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 2rem;
+    margin-bottom: 3rem;
   }
 
   .city__numbers {
