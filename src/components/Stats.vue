@@ -82,14 +82,14 @@
           </svg>
           <div class="red" :style="socialHousingRatePolygon"></div>
           <div class="radar__legend">
-            <p class="radar__legend__own-number">{{cityStats.social_housing_rate.toFixed(0)}} % de logements sociaux</p>
+            <p class="radar__legend__own-number">{{cityStats.social_housing_rate.toFixed(0)}}% de logements sociaux</p>
             <p class="radar__legend__objective22">22% objectif 2022</p>
           </div>
       </div>
       <div class="city__numbers">
         <div class="city__poverty">
           <p class="city__poverty__rate">
-            {{ cityStats.poverty_rate }} %
+            {{ cityStats.poverty_rate !== null ? cityStats.poverty_rate : '-' }}%
           </p>
           <v-rating
             v-model="povertyRateOutOfTen"
@@ -108,7 +108,7 @@
         </div>
         <div class="city__unemployment">
           <p class="city__unemployment__rate">
-            {{ cityStats.unemployment_rate }} %
+            {{ cityStats.unemployment_rate }}%
           </p>
           <v-rating
             v-model="unemploymentRateOutOfTen"
@@ -119,7 +119,7 @@
             <template v-slot:item="props">
               <v-icon
                 :color="props.isFilled ? '#FE605A' : '#356a94'"
-                v-text="'mdi-alert-octagon'"
+                v-text="'mdi-human-male'"
               ></v-icon>
             </template>
           </v-rating>
@@ -178,12 +178,8 @@ export default {
     padding: 0;
   }
 
-  .city__poverty__icons .v-icon {
+  .city__poverty__icons .v-icon, .city__unemployment__icons .v-icon {
     margin: -5px;
-  }
-
-  .city__unemployment__icons .v-icon {
-    margin: -2px;
   }
 
   .city {
