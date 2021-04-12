@@ -89,10 +89,10 @@
       <div class="city__numbers">
         <div class="city__poverty">
           <p class="city__poverty__rate">
-            {{cityStats.social_housing_rate.toFixed(0)}} %
+            {{ povertyRate }} %
           </p>
           <v-rating
-            v-model="povertyRate"
+            v-model="povertyRateOutOfTen"
             length="10"
             readonly
             class="city__poverty__icons"
@@ -108,10 +108,10 @@
         </div>
         <div class="city__unemployment">
           <p class="city__unemployment__rate">
-            {{cityStats.social_housing_rate.toFixed(0)}} %
+            {{ unemploymentRate }} %
           </p>
           <v-rating
-            v-model="unemploymentRate"
+            v-model="unemploymentRateOutOfTen"
             length="10"
             readonly
             class="city__unemployment__icons"
@@ -143,7 +143,7 @@ export default {
       return this.$store.getters.getCityById(this.$store.state.selectedCity);
     },
     socialHousingRate() {
-      return parseInt(this.cityStats.social_housing_rate, 10);
+      return this.cityStats.social_housing_rate;
     },
     socialHousingRatePolygon() {
       return `
@@ -154,10 +154,16 @@ export default {
       `;
     },
     povertyRate() {
-      return 5;
+      return this.cityStats.poverty_rate;
+    },
+    povertyRateOutOfTen() {
+      return this.cityStats.poverty_rate / 10;
     },
     unemploymentRate() {
-      return 5;
+      return this.cityStats.unemployment_rate;
+    },
+    unemploymentRateOutOfTen() {
+      return this.cityStats.unemployment_rate / 10;
     },
   },
 };

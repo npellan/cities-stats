@@ -331,7 +331,7 @@
     },
     {
         "id": 31,
-        "name": "Lyon1erArrondissement",
+        "name": "Lyon 1er Arrondissement",
         "postal_code": "69381",
         "population": 29352,
         "surface_area": 1.5,
@@ -342,7 +342,7 @@
     },
     {
         "id": 32,
-        "name": "Lyon2eArrondissement",
+        "name": "Lyon 2e Arrondissement",
         "postal_code": "69382",
         "population": 30520,
         "surface_area": 3.4,
@@ -353,7 +353,7 @@
     },
     {
         "id": 33,
-        "name": "Lyon3eArrondissement",
+        "name": "Lyon 3e Arrondissement",
         "postal_code": "69383",
         "population": 101744,
         "surface_area": 6.4,
@@ -364,7 +364,7 @@
     },
     {
         "id": 34,
-        "name": "Lyon4eArrondissement",
+        "name": "Lyon 4e Arrondissement",
         "postal_code": "69384",
         "population": 35949,
         "surface_area": 2.9,
@@ -375,7 +375,7 @@
     },
     {
         "id": 35,
-        "name": "Lyon5eArrondissement",
+        "name": "Lyon 5e Arrondissement",
         "postal_code": "69385",
         "population": 49409,
         "surface_area": 6.2,
@@ -386,7 +386,7 @@
     },
     {
         "id": 36,
-        "name": "Lyon6eArrondissement",
+        "name": "Lyon 6e Arrondissement",
         "postal_code": "69386",
         "population": 51777,
         "surface_area": 3.8,
@@ -397,7 +397,7 @@
     },
     {
         "id": 37,
-        "name": "Lyon7eArrondissement",
+        "name": "Lyon 7e Arrondissement",
         "postal_code": "69387",
         "population": 81566,
         "surface_area": 9.8,
@@ -408,7 +408,7 @@
     },
     {
         "id": 38,
-        "name": "Lyon8eArrondissement",
+        "name": "Lyon 8e Arrondissement",
         "postal_code": "69388",
         "population": 85088,
         "surface_area": 6.7,
@@ -419,7 +419,7 @@
     },
     {
         "id": 39,
-        "name": "Lyon9eArrondissement",
+        "name": "Lyon 9e Arrondissement",
         "postal_code": "69389",
         "population": 50687,
         "surface_area": 7.3,

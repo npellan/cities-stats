@@ -22,8 +22,7 @@ const actions = {
 
 const state = {
   cities,
-  selectedCity: '01',
-  color_opacity: 0.5,
+  selectedCity: 31,
 };
 
 const store = new Vuex.Store({
