@@ -1,5 +1,5 @@
 <template>
-  <div class="header">
+  <header class="header">
     <div class="logo">
       <router-link to="/"><img src="../assets/images/logo.svg" alt="logo"></router-link>
     </div>
@@ -10,7 +10,7 @@
         <li class="menu__item"><router-link to="/contact">Contact</router-link></li>
       </ul>
     </nav>
-  </div>
+  </header>
 </template>
 
 <script>
@@ -50,7 +50,7 @@ export default {
   font-family: 'Playfair Display', serif;
   font-weight: 600;
 
-  & .menu__list {
+  &__list {
   display: flex;
 
   @media screen and (max-width: 767px) {

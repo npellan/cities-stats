@@ -356,10 +356,10 @@
       <path @click="selectCity" id="31" :class="selectedCity === 31 ? 'path active' : 'path'" fill="#736783" d="M137.3,242.9c6,0.6,1.8-1.4,6.7-2.6c2-9.4-2.7-10.9-11.2-8.9c-3.1,0.9-16.9,3.3-10.7,6.9
       C128.5,239.2,134.1,236.1,137.3,242.9z"/>
     </svg>
-    <div class="map__legend">
-      <p class="map__legend__text">0% de logements sociaux</p>
-      <div class="map__legend__colors"></div>
-      <p class="map__legend__text">60% de logements sociaux</p>
+    <div class="legend">
+      <p class="legend__text">0% de logements sociaux</p>
+      <div class="legend__colors"></div>
+      <p class="legend__text">60% de logements sociaux</p>
     </div>
   </div>
 </template>
@@ -392,14 +392,24 @@ export default {
     @media screen and (max-width: 1024px) {
         width: 100%;
     }
+
   }
 
   .map svg {
-    margin-bottom: 4rem;
-    max-height: 80vh;
+  margin-bottom: 4rem;
+  max-height: 80vh;
+
+    path:hover {
+    fill: #4e4e4d;
+    cursor: pointer;
+    }
+
+    .active {
+      fill: #4e4e4d
+    }
   }
 
-  .map__legend {
+  .legend {
     display: flex;
     width: 100%;
     margin: 0 auto;
@@ -419,12 +429,4 @@ export default {
     }
   }
 
-  path:hover {
-    fill: #4e4e4d;
-    cursor: pointer;
-  }
-
-  .active {
-    fill: #4e4e4d
-  }
 </style>

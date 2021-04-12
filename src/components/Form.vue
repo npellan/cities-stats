@@ -3,7 +3,7 @@
       <select
         name="city"
         id="city"
-        class="select"
+        class="form__select"
         placeholder="Sélectionnez une ville"
         @change="selectCity(selectedCity)"
         v-model="selectedCity"
@@ -46,7 +46,7 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
-  .select {
+  .form__select {
     padding: 0.5rem;
     border: 1px solid var(--v-color-base);
     appearance: auto;

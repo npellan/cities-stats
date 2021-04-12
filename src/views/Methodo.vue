@@ -1,7 +1,7 @@
 <template>
-  <div class="methodo">
+  <main class="methodo">
       <h1>Bienvenue sur la page methodo</h1>
-  </div>
+  </main>
 </template>
 
 <script>

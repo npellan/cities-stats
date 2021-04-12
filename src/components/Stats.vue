@@ -6,7 +6,7 @@
       Sélectionnez une ville sur la carte
     </div>
     <div v-else class="city">
-      <header class="city__header">
+      <div class="header">
         <h2 class="header__name">{{cityStats.name}}</h2>
         <div class="header__infos">
           <div class="header__infos__postal-code">
@@ -28,13 +28,13 @@
             </span>
           </div>
         </div>
-      </header>
-      <div class="city__otherinfos">
+      </div>
+      <div class="header__other-infos">
         <p>{{cityStats.population}} hab.</p>
         <p>{{cityStats.surface_area}} km²</p>
         <p>{{cityStats.population_density}} hab/km²</p>
       </div>
-      <div class="city__social-housing">
+      <div class="social-housing">
           <svg version="1.1" id="camembert" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
           viewBox="0 0 232 152" enable-background="new 0 0 232 152" xml:space="preserve">
             <polygon id="Rond_x5F_Bleu" fill="#356A94" points="89.2,68.5 83.2,62.5 74.9,60.3 66.7,62.5 60.7,68.5 58.5,76.8 60.7,85 66.7,91
@@ -86,24 +86,24 @@
             <p class="radar__legend__objective22">22% objectif 2022</p>
           </div>
       </div>
-      <div class="city__social-housing-legend">
-        <div class="city__social-housing-legend--blue">
+      <div class="social-housing-legend">
+        <div class="social-housing-legend--blue">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. A voluptate recusandae temporibus facilis ut obcaecati dolorum fugiat ullam laborum culpa eligendi, velit minima, incidunt debitis magnam esse! Repellendus, beatae reiciendis.
         </div>
-        <div class="city__social-housing-legend--red">
+        <div class="social-housing-legend--red">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. A voluptate recusandae temporibus facilis ut obcaecati dolorum fugiat ullam laborum culpa eligendi, velit minima, incidunt debitis magnam esse! Repellendus, beatae reiciendis.
         </div>
       </div>
-      <div class="city__numbers">
-        <div class="city__poverty">
-          <p class="city__poverty__rate">
+      <div class="numbers">
+        <div class="numbers__poverty">
+          <p class="numbers__poverty__rate">
             {{ cityStats.poverty_rate !== null ? cityStats.poverty_rate : '-' }}%
           </p>
           <v-rating
             v-model="povertyRateOutOfTen"
             length="10"
             readonly
-            class="city__poverty__icons"
+            class="numbers__poverty__icons"
           >
             <template v-slot:item="props">
               <v-icon
@@ -112,17 +112,17 @@
               ></v-icon>
             </template>
           </v-rating>
-          <p class="city__poverty__legend">de la population sous le seuil de pauvreté</p>
+          <p class="numbers__poverty__legend">de la population sous le seuil de pauvreté</p>
         </div>
-        <div class="city__unemployment">
-          <p class="city__unemployment__rate">
+        <div class="numbers__unemployment">
+          <p class="numbers__unemployment__rate">
             {{ cityStats.unemployment_rate }}%
           </p>
           <v-rating
             v-model="unemploymentRateOutOfTen"
             length="10"
             readonly
-            class="city__unemployment__icons"
+            class="numbers__unemployment__icons"
           >
             <template v-slot:item="props">
               <v-icon
@@ -131,7 +131,7 @@
               ></v-icon>
             </template>
           </v-rating>
-          <p class="city__unemployment__legend">de la population active au chômage</p>
+          <p class="numbers__unemployment__legend">de la population active au chômage</p>
         </div>
       </div>
     </div>
@@ -192,9 +192,8 @@ export default {
 
   .city {
     margin-top: 1rem;
-  }
 
-  .city__header {
+    .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -202,83 +201,91 @@ export default {
     border-bottom: 3px solid var(--v-color-base);
     padding: 1rem 0;
 
-    .header__name {
-      font-size: 1.75rem;
-      font-weight: 500;
-    }
-  }
+      &__name {
+        font-size: 1.75rem;
+        font-weight: 500;
+      }
 
-  .city__otherinfos {
-    display: flex;
-    justify-content: space-between;
-    padding: 0.5rem 0;
-    border-bottom: 1px solid var(--v-color-base);
+      &__other-infos {
+        display: flex;
+        justify-content: space-between;
+        padding: 0.5rem 0;
+        border-bottom: 1px solid var(--v-color-base);
 
-    & p {
-      margin-bottom: 0;
-    }
-
-  }
-
-  .city__social-housing {
-    margin: 3rem 0 3rem;
-    position: relative;
-    display: flex;
-
-    & svg {
-      max-width: 232px;
+        & p {
+          margin-bottom: 0;
+        }
+      }
     }
 
-    .red {
-      clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%);
-      background-color: red;
-      position: absolute;
-      opacity: 0.3;
-    }
-
-    .radar__legend {
+    .social-housing {
+      margin: 3rem 0 3rem;
       position: relative;
-      margin-left: 1rem;
+      display: flex;
 
-      &__own-number {
-        position: absolute;
-        top: 10px;
-        width: 200px;
+      & svg {
+        max-width: 232px;
       }
 
-      &__objective22 {
+      .red {
+        clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%);
+        background-color: red;
         position: absolute;
-        top: 115px;
-        width: 200px;
+        opacity: 0.3;
+      }
+
+      .radar__legend {
+        position: relative;
+        margin-left: 1rem;
+
+        &__own-number {
+          position: absolute;
+          top: 10px;
+          width: 200px;
+        }
+
+        &__objective22 {
+          position: absolute;
+          top: 115px;
+          width: 200px;
+        }
       }
     }
-  }
 
-  .city__social-housing-legend {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    column-gap: 2rem;
-    margin-bottom: 3rem;
-  }
-
-  .city__numbers {
-    display: flex;
-    justify-content: space-evenly;
-    text-align: center;
-
-    & .city__unemployment__rate, .city__poverty__rate {
-      font-family: 'Oswald', sans-serif;
-      font-weight: 700;
-      font-size: 4rem;
-      margin-bottom: 0;
-      line-height: 1.1;
+    .social-housing-legend {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      column-gap: 2rem;
+      margin-bottom: 3rem;
     }
 
-    & .city__unemployment__legend, .city__poverty__legend {
-      font-family: 'Playfair Display', sans-serif;
-      font-weight: 400;
-      font-size: 0.5rem;
-      margin-bottom: 0;
+    .numbers {
+      display: flex;
+      justify-content: space-evenly;
+      text-align: center;
+
+      @media screen and (max-width: 600px) {
+        flex-direction: column;
+      }
+
+      &__unemployment__rate, &__poverty__rate {
+        font-family: 'Oswald', sans-serif;
+        font-weight: 700;
+        font-size: 4rem;
+        margin-bottom: 0;
+        line-height: 1.1;
+      }
+
+      &__unemployment__legend, &__poverty__legend {
+        font-family: 'Playfair Display', sans-serif;
+        font-weight: 400;
+        font-size: 0.5rem;
+        margin-bottom: 0;
+
+        @media screen and (max-width: 600px) {
+          margin-bottom: 1rem;
+        }
+      }
     }
   }
 

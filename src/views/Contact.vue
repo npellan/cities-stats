@@ -1,7 +1,7 @@
 <template>
-  <div class="contact">
+  <main class="contact">
       <h1>Bienvenue sur la page contact</h1>
-  </div>
+  </main>
 </template>
 
 <script>

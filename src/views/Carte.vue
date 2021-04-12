@@ -1,8 +1,8 @@
 <template>
-  <div class="map">
+  <main class="carte">
       <Map />
       <Stats />
-  </div>
+  </main>
 </template>
 
 <script>
@@ -18,8 +18,8 @@ export default {
 };
 </script>
 
-<style lang="scss">
-  .map {
+<style scoped lang="scss">
+  .carte {
     display: flex;
     justify-content: space-between;
 
