@@ -420,7 +420,8 @@ export default {
   }
 
   path:hover {
-    fill: #4e4e4d
+    fill: #4e4e4d;
+    cursor: pointer;
   }
 
   .active {
