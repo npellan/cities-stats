@@ -30,9 +30,9 @@
         </div>
       </header>
       <div class="city__otherinfos">
-        <p>49789 hab.</p>
-        <p>21 km²</p>
-        <p>2370,4 hab/km²</p>
+        <p>{{cityStats.population}} hab.</p>
+        <p>{{cityStats.surface_area}} km²</p>
+        <p>{{cityStats.population_density}} hab/km²</p>
       </div>
       <div class="city__social-housing">
           <svg version="1.1" id="camembert" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -89,7 +89,7 @@
       <div class="city__numbers">
         <div class="city__poverty">
           <p class="city__poverty__rate">
-            {{ povertyRate }} %
+            {{ cityStats.poverty_rate }} %
           </p>
           <v-rating
             v-model="povertyRateOutOfTen"
@@ -108,7 +108,7 @@
         </div>
         <div class="city__unemployment">
           <p class="city__unemployment__rate">
-            {{ unemploymentRate }} %
+            {{ cityStats.unemployment_rate }} %
           </p>
           <v-rating
             v-model="unemploymentRateOutOfTen"
@@ -142,25 +142,16 @@ export default {
     cityStats() {
       return this.$store.getters.getCityById(this.$store.state.selectedCity);
     },
-    socialHousingRate() {
-      return this.cityStats.social_housing_rate;
-    },
     socialHousingRatePolygon() {
       return `
-      width: ${this.socialHousingRate * 1.5}px;
-      height: ${this.socialHousingRate * 1.5}px;
-      top: calc(76px - (${this.socialHousingRate * 0.75}px);
-      left: calc(76px - (${this.socialHousingRate * 0.75}px);
+      width: ${this.cityStats.social_housing_rate * 1.5}px;
+      height: ${this.cityStats.social_housing_rate * 1.5}px;
+      top: calc(76px - (${this.cityStats.social_housing_rate * 0.75}px);
+      left: calc(76px - (${this.cityStats.social_housing_rate * 0.75}px);
       `;
-    },
-    povertyRate() {
-      return this.cityStats.poverty_rate;
     },
     povertyRateOutOfTen() {
       return this.cityStats.poverty_rate / 10;
-    },
-    unemploymentRate() {
-      return this.cityStats.unemployment_rate;
     },
     unemploymentRateOutOfTen() {
       return this.cityStats.unemployment_rate / 10;
