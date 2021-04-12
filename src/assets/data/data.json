@@ -1,471 +1,739 @@
 [
-        {
-            "id": "01",
-            "name": "Albigny-sur-Saône ",
-            "postal_code": "69003",
-            "social_housing_rate": 24.3,
-            "color_opacity": "0.44"
-        },
-        {
-            "id": "02",
-            "name": "Bron ",
-            "postal_code": "69029",
-            "social_housing_rate": 27.1,
-            "color_opacity": "0.49"
-        },
-        {
-            "id": "03",
-            "name": "Cailloux-sur-Fontaines ",
-            "postal_code": "69033",
-            "social_housing_rate": 3.66,
-            "color_opacity": "0.07"
-        },
-        {
-            "id": "04",
-            "name": "Caluire-et-Cuire ",
-            "postal_code": "69034",
-            "social_housing_rate": 18.6,
-            "color_opacity": "0.34"
-        },
-        {
-            "id": "05",
-            "name": "Champagne-au-Mont-d'Or ",
-            "postal_code": "69040",
-            "social_housing_rate": 23.7,
-            "color_opacity": "0.43"
-        },
-        {
-            "id": "06",
-            "name": "Charbonnières-les-Bains ",
-            "postal_code": "69044",
-            "social_housing_rate": 13.1,
-            "color_opacity": "0.24"
-        },
-        {
-            "id": "07",
-            "name": "Charly ",
-            "postal_code": "69046",
-            "social_housing_rate": 5.17,
-            "color_opacity": "0.09"
-        },
-        {
-            "id": "08",
-            "name": "Chassieu ",
-            "postal_code": "69271",
-            "social_housing_rate": 15.5,
-            "color_opacity": "0.28"
-        },
-        {
-            "id": "09",
-            "name": "Collonges-au-Mont-d'Or ",
-            "postal_code": "69063",
-            "social_housing_rate": 10.3,
-            "color_opacity": "0.19"
-        },
-        {
-            "id": "10",
-            "name": "Corbas ",
-            "postal_code": "69273",
-            "social_housing_rate": 13.3,
-            "color_opacity": "0.24"
-        },
-        {
-            "id": "11",
-            "name": "Couzon-au-Mont-d'Or ",
-            "postal_code": "69068",
-            "social_housing_rate": 11.2,
-            "color_opacity": "0.20"
-        },
-        {
-            "id": "12",
-            "name": "Craponne ",
-            "postal_code": "69069",
-            "social_housing_rate": 15.2,
-            "color_opacity": "0.28"
-        },
-        {
-            "id": "13",
-            "name": "Curis-au-Mont-d'Or ",
-            "postal_code": "69071",
-            "social_housing_rate": 5.47,
-            "color_opacity": "0.10"
-        },
-        {
-            "id": "14",
-            "name": "Dardilly ",
-            "postal_code": "69072",
-            "social_housing_rate": 17.1,
-            "color_opacity": "0.31"
-        },
-        {
-            "id": "15",
-            "name": "Décines-Charpieu ",
-            "postal_code": "69275",
-            "social_housing_rate": 23,
-            "color_opacity": "0.42"
-        },
-        {
-            "id": "16",
-            "name": "Écully ",
-            "postal_code": "69081",
-            "social_housing_rate": 29.5,
-            "color_opacity": "0.54"
-        },
-        {
-            "id": "17",
-            "name": "Feyzin ",
-            "postal_code": "69276",
-            "social_housing_rate": 32.2,
-            "color_opacity": "0.59"
-        },
-        {
-            "id": "18",
-            "name": "Fleurieu-sur-Saône ",
-            "postal_code": "69085",
-            "social_housing_rate": 3.51,
-            "color_opacity": "0.06"
-        },
-        {
-            "id": "19",
-            "name": "Fontaines-Saint-Martin ",
-            "postal_code": "69087",
-            "social_housing_rate": 5.07,
-            "color_opacity": "0.09"
-        },
-        {
-            "id": "20",
-            "name": "Fontaines-sur-Saône ",
-            "postal_code": "69088",
-            "social_housing_rate": 24.5,
-            "color_opacity": "0.45"
-        },
-        {
-            "id": "21",
-            "name": "Francheville ",
-            "postal_code": "69089",
-            "social_housing_rate": 17.5,
-            "color_opacity": "0.32"
-        },
-        {
-            "id": "22",
-            "name": "Genay ",
-            "postal_code": "69278",
-            "social_housing_rate": 17.6,
-            "color_opacity": "0.32"
-        },
-        {
-            "id": "23",
-            "name": "Givors ",
-            "postal_code": "69091",
-            "social_housing_rate": 43.4,
-            "color_opacity": "0.79"
-        },
-        {
-            "id": "24",
-            "name": "Grigny ",
-            "postal_code": "69096",
-            "social_housing_rate": 30.6,
-            "color_opacity": "0.56"
-        },
-        {
-            "id": "25",
-            "name": "Irigny ",
-            "postal_code": "69100",
-            "social_housing_rate": 19.5,
-            "color_opacity": "0.36"
-        },
-        {
-            "id": "26",
-            "name": "Jonage ",
-            "postal_code": "69279",
-            "social_housing_rate": 0.93,
-            "color_opacity": "0.02"
-        },
-        {
-            "id": "27",
-            "name": "La Mulatière ",
-            "postal_code": "69142",
-            "social_housing_rate": 23.3,
-            "color_opacity": "0.42"
-        },
-        {
-            "id": "28",
-            "name": "La Tour-de-Salvagny ",
-            "postal_code": "69250",
-            "social_housing_rate": 9.47,
-            "color_opacity": "0.17"
-        },
-        {
-            "id": "29",
-            "name": "Limonest ",
-            "postal_code": "69116",
-            "social_housing_rate": 15.9,
-            "color_opacity": "0.29"
-        },
-        {
-            "id": "30",
-            "name": "Lissieu ",
-            "postal_code": "69117",
-            "social_housing_rate": 10.1,
-            "color_opacity": "0.18"
-        },
-        {
-            "id": "31",
-            "name": "Lyon 1er Arrondissement ",
-            "postal_code": "69381",
-            "social_housing_rate": 0,
-            "color_opacity": "0.00"
-        },
-        {
-            "id": "32",
-            "name": "Lyon 2e Arrondissement ",
-            "postal_code": "69382",
-            "social_housing_rate": 0,
-            "color_opacity": "0.00"
-        },
-        {
-            "id": "33",
-            "name": "Lyon 3e Arrondissement ",
-            "postal_code": "69383",
-            "social_housing_rate": 0,
-            "color_opacity": "0.00"
-        },
-        {
-            "id": "34",
-            "name": "Lyon 4e Arrondissement ",
-            "postal_code": "69384",
-            "social_housing_rate": 0,
-            "color_opacity": "0.00"
-        },
-        {
-            "id": "35",
-            "name": "Lyon 5e Arrondissement ",
-            "postal_code": "69385",
-            "social_housing_rate": 0,
-            "color_opacity": "0.00"
-        },
-        {
-            "id": "36",
-            "name": "Lyon 6e Arrondissement ",
-            "postal_code": "69386",
-            "social_housing_rate": 0,
-            "color_opacity": "0.00"
-        },
-        {
-            "id": "37",
-            "name": "Lyon 7e Arrondissement ",
-            "postal_code": "69387",
-            "social_housing_rate": 0,
-            "color_opacity": "0.00"
-        },
-        {
-            "id": "38",
-            "name": "Lyon 8e Arrondissement ",
-            "postal_code": "69388",
-            "social_housing_rate": 0,
-            "color_opacity": "0.00"
-        },
-        {
-            "id": "39",
-            "name": "Lyon 9e Arrondissement ",
-            "postal_code": "69389",
-            "social_housing_rate": 0,
-            "color_opacity": "0.00"
-        },
-        {
-            "id": "40",
-            "name": "Marcy-l'Étoile ",
-            "postal_code": "69127",
-            "social_housing_rate": 15.6,
-            "color_opacity": "0.28"
-        },
-        {
-            "id": "41",
-            "name": "Meyzieu ",
-            "postal_code": "69282",
-            "social_housing_rate": 20.2,
-            "color_opacity": "0.37"
-        },
-        {
-            "id": "42",
-            "name": "Mions ",
-            "postal_code": "69283",
-            "social_housing_rate": 16.5,
-            "color_opacity": "0.30"
-        },
-        {
-            "id": "43",
-            "name": "Montanay ",
-            "postal_code": "69284",
-            "social_housing_rate": 4.74,
-            "color_opacity": "0.09"
-        },
-        {
-            "id": "44",
-            "name": "Neuville-sur-Saône ",
-            "postal_code": "69143",
-            "social_housing_rate": 23.5,
-            "color_opacity": "0.43"
-        },
-        {
-            "id": "45",
-            "name": "Oullins ",
-            "postal_code": "69149",
-            "social_housing_rate": 17.6,
-            "color_opacity": "0.32"
-        },
-        {
-            "id": "46",
-            "name": "Pierre-Bénite ",
-            "postal_code": "69152",
-            "social_housing_rate": 23.8,
-            "color_opacity": "0.43"
-        },
-        {
-            "id": "47",
-            "name": "Poleymieux-au-Mont-d'Or ",
-            "postal_code": "69153",
-            "social_housing_rate": 5.15,
-            "color_opacity": "0.09"
-        },
-        {
-            "id": "48",
-            "name": "Quincieux ",
-            "postal_code": "69163",
-            "social_housing_rate": 9.78,
-            "color_opacity": "0.18"
-        },
-        {
-            "id": "49",
-            "name": "Rillieux-la-Pape ",
-            "postal_code": "69286",
-            "social_housing_rate": 53.3,
-            "color_opacity": "0.97"
-        },
-        {
-            "id": "50",
-            "name": "Rochetaillée-sur-Saône ",
-            "postal_code": "69168",
-            "social_housing_rate": 20.2,
-            "color_opacity": "0.37"
-        },
-        {
-            "id": "51",
-            "name": "Saint-Cyr-au-Mont-d'Or ",
-            "postal_code": "69191",
-            "social_housing_rate": 12.8,
-            "color_opacity": "0.23"
-        },
-        {
-            "id": "52",
-            "name": "Saint-Didier-au-Mont-d'Or ",
-            "postal_code": "69194",
-            "social_housing_rate": 7.54,
-            "color_opacity": "0.14"
-        },
-        {
-            "id": "53",
-            "name": "Sainte-Foy-lès-Lyon ",
-            "postal_code": "69202",
-            "social_housing_rate": 11.7,
-            "color_opacity": "0.21"
-        },
-        {
-            "id": "54",
-            "name": "Saint-Fons ",
-            "postal_code": "69199",
-            "social_housing_rate": 50.2,
-            "color_opacity": "0.91"
-        },
-        {
-            "id": "55",
-            "name": "Saint-Genis-Laval ",
-            "postal_code": "69204",
-            "social_housing_rate": 17.1,
-            "color_opacity": "0.31"
-        },
-        {
-            "id": "56",
-            "name": "Saint-Genis-les-Ollières ",
-            "postal_code": "69205",
-            "social_housing_rate": 12.8,
-            "color_opacity": "0.23"
-        },
-        {
-            "id": "57",
-            "name": "Saint-Germain-au-Mont-d'Or ",
-            "postal_code": "69207",
-            "social_housing_rate": 30.2,
-            "color_opacity": "0.55"
-        },
-        {
-            "id": "58",
-            "name": "Saint-Priest ",
-            "postal_code": "69290",
-            "social_housing_rate": 32.5,
-            "color_opacity": "0.59"
-        },
-        {
-            "id": "59",
-            "name": "Saint-Romain-au-Mont-d'Or ",
-            "postal_code": "69233",
-            "social_housing_rate": 7.64,
-            "color_opacity": "0.14"
-        },
-        {
-            "id": "60",
-            "name": "Sathonay-Camp ",
-            "postal_code": "69292",
-            "social_housing_rate": 28.8,
-            "color_opacity": "0.52"
-        },
-        {
-            "id": "61",
-            "name": "Sathonay-Village ",
-            "postal_code": "69293",
-            "social_housing_rate": 3.97,
-            "color_opacity": "0.07"
-        },
-        {
-            "id": "62",
-            "name": "Solaize ",
-            "postal_code": "69296",
-            "social_housing_rate": 3.55,
-            "color_opacity": "0.06"
-        },
-        {
-            "id": "63",
-            "name": "Tassin-la-Demi-Lune ",
-            "postal_code": "69244",
-            "social_housing_rate": 10.8,
-            "color_opacity": "0.20"
-        },
-        {
-            "id": "64",
-            "name": "Vaulx-en-Velin ",
-            "postal_code": "69256",
-            "social_housing_rate": 54.3,
-            "color_opacity": "0.99"
-        },
-        {
-            "id": "65",
-            "name": "Vénissieux ",
-            "postal_code": "69259",
-            "social_housing_rate": 49.2,
-            "color_opacity": "0.90"
-        },
-        {
-            "id": "66",
-            "name": "Vernaison ",
-            "postal_code": "69260",
-            "social_housing_rate": 23.0,
-            "color_opacity": "0.42"
-        },
-        {
-            "id": "67",
-            "name": "Villeurbanne ",
-            "postal_code": "69266",
-            "social_housing_rate": 27.5,
-            "color_opacity": "0.50"
-        }
+    {
+        "id": 1,
+        "name": "Albigny-sur-Saône",
+        "postal_code": "69003",
+        "population": 2880,
+        "surface_area": 2.6,
+        "population_density": 1120.6,
+        "social_housing_rate": 24.3,
+        "poverty_rate": 10,
+        "unemployment_rate": 9.1
+    },
+    {
+        "id": 2,
+        "name": "Bron",
+        "postal_code": "69029",
+        "population": 41543,
+        "surface_area": 10.3,
+        "population_density": 4033.3,
+        "social_housing_rate": 27.1,
+        "poverty_rate": 21,
+        "unemployment_rate": 14.9
+    },
+    {
+        "id": 3,
+        "name": "Cailloux-sur-Fontaines",
+        "postal_code": "69033",
+        "population": 2722,
+        "surface_area": 8.7,
+        "population_density": 313.2,
+        "social_housing_rate": 3.7,
+        "poverty_rate": "",
+        "unemployment_rate": 5.6
+    },
+    {
+        "id": 4,
+        "name": "Caluire-et-Cuire",
+        "postal_code": "69034",
+        "population": 43187,
+        "surface_area": 10.5,
+        "population_density": 4132.7,
+        "social_housing_rate": 18.6,
+        "poverty_rate": 10,
+        "unemployment_rate": 10.3
+    },
+    {
+        "id": 5,
+        "name": "Champagne-au-Mont-d'Or",
+        "postal_code": "69040",
+        "population": 5526,
+        "surface_area": 2.6,
+        "population_density": 2133.6,
+        "social_housing_rate": 23.8,
+        "poverty_rate": 10,
+        "unemployment_rate": 12.1
+    },
+    {
+        "id": 6,
+        "name": "Charbonnières-les-Bains",
+        "postal_code": "69044",
+        "population": 5067,
+        "surface_area": 4.1,
+        "population_density": 1226.9,
+        "social_housing_rate": 13.2,
+        "poverty_rate": 5,
+        "unemployment_rate": 8.6
+    },
+    {
+        "id": 7,
+        "name": "Charly",
+        "postal_code": "69046",
+        "population": 4541,
+        "surface_area": 5.1,
+        "population_density": 892.1,
+        "social_housing_rate": 5.2,
+        "poverty_rate": "",
+        "unemployment_rate": 7.3
+    },
+    {
+        "id": 8,
+        "name": "Chassieu",
+        "postal_code": "69271",
+        "population": 10359,
+        "surface_area": 11.6,
+        "population_density": 895.3,
+        "social_housing_rate": 15.6,
+        "poverty_rate": 7,
+        "unemployment_rate": 8.4
+    },
+    {
+        "id": 9,
+        "name": "Collonges-au-Mont-d'Or",
+        "postal_code": "69063",
+        "population": 4052,
+        "surface_area": 3.8,
+        "population_density": 1072.0,
+        "social_housing_rate": 10.3,
+        "poverty_rate": 5,
+        "unemployment_rate": 8.0
+    },
+    {
+        "id": 10,
+        "name": "Corbas",
+        "postal_code": "69273",
+        "population": 11050,
+        "surface_area": 11.9,
+        "population_density": 930.1,
+        "social_housing_rate": 13.4,
+        "poverty_rate": 8,
+        "unemployment_rate": 10.3
+    },
+    {
+        "id": 11,
+        "name": "Couzon-au-Mont-d'Or",
+        "postal_code": "69068",
+        "population": 2516,
+        "surface_area": 3.1,
+        "population_density": 809.0,
+        "social_housing_rate": 11.2,
+        "poverty_rate": 9,
+        "unemployment_rate": 7.8
+    },
+    {
+        "id": 12,
+        "name": "Craponne",
+        "postal_code": "69069",
+        "population": 11067,
+        "surface_area": 4.6,
+        "population_density": 2395.5,
+        "social_housing_rate": 15.3,
+        "poverty_rate": 7,
+        "unemployment_rate": 9.1
+    },
+    {
+        "id": 13,
+        "name": "Curis-au-Mont-d'Or",
+        "postal_code": "69071",
+        "population": 1172,
+        "surface_area": 3.0,
+        "population_density": 386.8,
+        "social_housing_rate": 5.5,
+        "poverty_rate": "",
+        "unemployment_rate": 7.0
+    },
+    {
+        "id": 14,
+        "name": "Dardilly",
+        "postal_code": "69072",
+        "population": 8600,
+        "surface_area": 14.0,
+        "population_density": 614.7,
+        "social_housing_rate": 17.1,
+        "poverty_rate": 6,
+        "unemployment_rate": 9.4
+    },
+    {
+        "id": 15,
+        "name": "Décines-Charpieu",
+        "postal_code": "69275",
+        "population": 28602,
+        "surface_area": 17.0,
+        "population_density": 1681.5,
+        "social_housing_rate": 23.0,
+        "poverty_rate": 16,
+        "unemployment_rate": 14.8
+    },
+    {
+        "id": 16,
+        "name": "Écully",
+        "postal_code": "69081",
+        "population": 18517,
+        "surface_area": 8.5,
+        "population_density": 2191.4,
+        "social_housing_rate": 29.6,
+        "poverty_rate": 11,
+        "unemployment_rate": 13.6
+    },
+    {
+        "id": 17,
+        "name": "Feyzin",
+        "postal_code": "69276",
+        "population": 9857,
+        "surface_area": 9.6,
+        "population_density": 1022.5,
+        "social_housing_rate": 32.2,
+        "poverty_rate": 14,
+        "unemployment_rate": 13.6
+    },
+    {
+        "id": 18,
+        "name": "Fleurieu-sur-Saône",
+        "postal_code": "69085",
+        "population": 1449,
+        "surface_area": 2.9,
+        "population_density": 497.9,
+        "social_housing_rate": 3.5,
+        "poverty_rate": "",
+        "unemployment_rate": 8.1
+    },
+    {
+        "id": 19,
+        "name": "Fontaines-Saint-Martin",
+        "postal_code": "69087",
+        "population": 3052,
+        "surface_area": 2.7,
+        "population_density": 1113.9,
+        "social_housing_rate": 5.1,
+        "poverty_rate": "",
+        "unemployment_rate": 7.8
+    },
+    {
+        "id": 20,
+        "name": "Fontaines-sur-Saône",
+        "postal_code": "69088",
+        "population": 7069,
+        "surface_area": 2.3,
+        "population_density": 3047.0,
+        "social_housing_rate": 24.5,
+        "poverty_rate": 11,
+        "unemployment_rate": 12.5
+    },
+    {
+        "id": 21,
+        "name": "Francheville",
+        "postal_code": "69089",
+        "population": 14198,
+        "surface_area": 8.2,
+        "population_density": 1735.7,
+        "social_housing_rate": 17.5,
+        "poverty_rate": 7,
+        "unemployment_rate": 10.8
+    },
+    {
+        "id": 22,
+        "name": "Genay",
+        "postal_code": "69278",
+        "population": 5470,
+        "surface_area": 8.5,
+        "population_density": 644.3,
+        "social_housing_rate": 17.7,
+        "poverty_rate": 8,
+        "unemployment_rate": 8.8
+    },
+    {
+        "id": 23,
+        "name": "Givors",
+        "postal_code": "69091",
+        "population": 19975,
+        "surface_area": 17.3,
+        "population_density": 1152.0,
+        "social_housing_rate": 43.5,
+        "poverty_rate": 29,
+        "unemployment_rate": 20.4
+    },
+    {
+        "id": 24,
+        "name": "Grigny",
+        "postal_code": "69096",
+        "population": 9662,
+        "surface_area": 5.8,
+        "population_density": 1680.3,
+        "social_housing_rate": 30.7,
+        "poverty_rate": 15,
+        "unemployment_rate": 13.6
+    },
+    {
+        "id": 25,
+        "name": "Irigny",
+        "postal_code": "69100",
+        "population": 8641,
+        "surface_area": 8.8,
+        "population_density": 977.5,
+        "social_housing_rate": 19.6,
+        "poverty_rate": 11,
+        "unemployment_rate": 11.8
+    },
+    {
+        "id": 26,
+        "name": "Jonage",
+        "postal_code": "69279",
+        "population": 5903,
+        "surface_area": 12.1,
+        "population_density": 487.4,
+        "social_housing_rate": 0.9,
+        "poverty_rate": 5,
+        "unemployment_rate": 6.7
+    },
+    {
+        "id": 27,
+        "name": "LaMulatière",
+        "postal_code": "69142",
+        "population": 6334,
+        "surface_area": 1.8,
+        "population_density": 3480.2,
+        "social_housing_rate": 23.4,
+        "poverty_rate": 19,
+        "unemployment_rate": 16.8
+    },
+    {
+        "id": 28,
+        "name": "LaTour-de-Salvagny",
+        "postal_code": "69250",
+        "population": 4050,
+        "surface_area": 8.4,
+        "population_density": 480.4,
+        "social_housing_rate": 9.5,
+        "poverty_rate": "",
+        "unemployment_rate": 7.4
+    },
+    {
+        "id": 29,
+        "name": "Limonest",
+        "postal_code": "69116",
+        "population": 3664,
+        "surface_area": 8.4,
+        "population_density": 436.7,
+        "social_housing_rate": 15.9,
+        "poverty_rate": "",
+        "unemployment_rate": 9.4
+    },
+    {
+        "id": 30,
+        "name": "Lissieu",
+        "postal_code": "69117",
+        "population": 3122,
+        "surface_area": 5.7,
+        "population_density": 551.6,
+        "social_housing_rate": 10.2,
+        "poverty_rate": "",
+        "unemployment_rate": 6.7
+    },
+    {
+        "id": 31,
+        "name": "Lyon1erArrondissement",
+        "postal_code": "69381",
+        "population": 29352,
+        "surface_area": 1.5,
+        "population_density": 19438.4,
+        "social_housing_rate": 16.2,
+        "poverty_rate": 15,
+        "unemployment_rate": 14.5
+    },
+    {
+        "id": 32,
+        "name": "Lyon2eArrondissement",
+        "postal_code": "69382",
+        "population": 30520,
+        "surface_area": 3.4,
+        "population_density": 8950.1,
+        "social_housing_rate": 11.9,
+        "poverty_rate": 11,
+        "unemployment_rate": 11.3
+    },
+    {
+        "id": 33,
+        "name": "Lyon3eArrondissement",
+        "postal_code": "69383",
+        "population": 101744,
+        "surface_area": 6.4,
+        "population_density": 16022.7,
+        "social_housing_rate": 15.8,
+        "poverty_rate": 13,
+        "unemployment_rate": 13.2
+    },
+    {
+        "id": 34,
+        "name": "Lyon4eArrondissement",
+        "postal_code": "69384",
+        "population": 35949,
+        "surface_area": 2.9,
+        "population_density": 12269.3,
+        "social_housing_rate": 14.5,
+        "poverty_rate": 10,
+        "unemployment_rate": 12.0
+    },
+    {
+        "id": 35,
+        "name": "Lyon5eArrondissement",
+        "postal_code": "69385",
+        "population": 49409,
+        "surface_area": 6.2,
+        "population_density": 7930.8,
+        "social_housing_rate": 12.3,
+        "poverty_rate": 13,
+        "unemployment_rate": 13.0
+    },
+    {
+        "id": 36,
+        "name": "Lyon6eArrondissement",
+        "postal_code": "69386",
+        "population": 51777,
+        "surface_area": 3.8,
+        "population_density": 13734.0,
+        "social_housing_rate": 8.8,
+        "poverty_rate": 9,
+        "unemployment_rate": 9.7
+    },
+    {
+        "id": 37,
+        "name": "Lyon7eArrondissement",
+        "postal_code": "69387",
+        "population": 81566,
+        "surface_area": 9.8,
+        "population_density": 8365.7,
+        "social_housing_rate": 14.5,
+        "poverty_rate": 16,
+        "unemployment_rate": 13.3
+    },
+    {
+        "id": 38,
+        "name": "Lyon8eArrondissement",
+        "postal_code": "69388",
+        "population": 85088,
+        "surface_area": 6.7,
+        "population_density": 12756.8,
+        "social_housing_rate": 31.8,
+        "poverty_rate": 21,
+        "unemployment_rate": 15.4
+    },
+    {
+        "id": 39,
+        "name": "Lyon9eArrondissement",
+        "postal_code": "69389",
+        "population": 50687,
+        "surface_area": 7.3,
+        "population_density": 6991.3,
+        "social_housing_rate": 35.0,
+        "poverty_rate": 21,
+        "unemployment_rate": 15.2
+    },
+    {
+        "id": 40,
+        "name": "Marcy-l'Étoile",
+        "postal_code": "69127",
+        "population": 3657,
+        "surface_area": 5.4,
+        "population_density": 681.0,
+        "social_housing_rate": 15.6,
+        "poverty_rate": "",
+        "unemployment_rate": 6.7
+    },
+    {
+        "id": 41,
+        "name": "Meyzieu",
+        "postal_code": "69282",
+        "population": 33477,
+        "surface_area": 23.0,
+        "population_density": 1454.9,
+        "social_housing_rate": 20.2,
+        "poverty_rate": 12,
+        "unemployment_rate": 12.6
+    },
+    {
+        "id": 42,
+        "name": "Mions",
+        "postal_code": "69283",
+        "population": 13542,
+        "surface_area": 11.6,
+        "population_density": 1170.4,
+        "social_housing_rate": 16.5,
+        "poverty_rate": 8,
+        "unemployment_rate": 11.6
+    },
+    {
+        "id": 43,
+        "name": "Montanay",
+        "postal_code": "69284",
+        "population": 3142,
+        "surface_area": 7.2,
+        "population_density": 438.8,
+        "social_housing_rate": 4.7,
+        "poverty_rate": "",
+        "unemployment_rate": 5.8
+    },
+    {
+        "id": 44,
+        "name": "Neuville-sur-Saône",
+        "postal_code": "69143",
+        "population": 7514,
+        "surface_area": 5.5,
+        "population_density": 1373.7,
+        "social_housing_rate": 23.5,
+        "poverty_rate": 13,
+        "unemployment_rate": 15.0
+    },
+    {
+        "id": 45,
+        "name": "Oullins",
+        "postal_code": "69149",
+        "population": 26273,
+        "surface_area": 4.4,
+        "population_density": 5971.1,
+        "social_housing_rate": 17.7,
+        "poverty_rate": 13,
+        "unemployment_rate": 11.6
+    },
+    {
+        "id": 46,
+        "name": "Pierre-Bénite",
+        "postal_code": "69152",
+        "population": 10390,
+        "surface_area": 4.5,
+        "population_density": 2319.2,
+        "social_housing_rate": 23.8,
+        "poverty_rate": 20,
+        "unemployment_rate": 16.2
+    },
+    {
+        "id": 47,
+        "name": "Poleymieux-au-Mont-d'Or",
+        "postal_code": "69153",
+        "population": 1332,
+        "surface_area": 6.2,
+        "population_density": 214.5,
+        "social_housing_rate": 5.2,
+        "poverty_rate": "",
+        "unemployment_rate": 4.5
+    },
+    {
+        "id": 48,
+        "name": "Quincieux",
+        "postal_code": "69163",
+        "population": 3467,
+        "surface_area": 17.7,
+        "population_density": 195.7,
+        "social_housing_rate": 9.8,
+        "poverty_rate": "",
+        "unemployment_rate": 5.5
+    },
+    {
+        "id": 49,
+        "name": "Rillieux-la-Pape",
+        "postal_code": "69286",
+        "population": 30012,
+        "surface_area": 14.5,
+        "population_density": 2072.7,
+        "social_housing_rate": 53.3,
+        "poverty_rate": 24,
+        "unemployment_rate": 16.8
+    },
+    {
+        "id": 50,
+        "name": "Rochetaillée-sur-Saône",
+        "postal_code": "69168",
+        "population": 1528,
+        "surface_area": 1.3,
+        "population_density": 1184.5,
+        "social_housing_rate": 20.2,
+        "poverty_rate": "",
+        "unemployment_rate": 12.9
+    },
+    {
+        "id": 51,
+        "name": "Saint-Cyr-au-Mont-d'Or",
+        "postal_code": "69191",
+        "population": 5576,
+        "surface_area": 7.3,
+        "population_density": 764.9,
+        "social_housing_rate": 12.9,
+        "poverty_rate": 7,
+        "unemployment_rate": 8.9
+    },
+    {
+        "id": 52,
+        "name": "Saint-Didier-au-Mont-d'Or",
+        "postal_code": "69194",
+        "population": 6785,
+        "surface_area": 8.3,
+        "population_density": 813.5,
+        "social_housing_rate": 7.5,
+        "poverty_rate": 5,
+        "unemployment_rate": 7.6
+    },
+    {
+        "id": 53,
+        "name": "Sainte-Foy-lès-Lyon",
+        "postal_code": "69202",
+        "population": 22012,
+        "surface_area": 6.8,
+        "population_density": 3222.8,
+        "social_housing_rate": 11.8,
+        "poverty_rate": 8,
+        "unemployment_rate": 9.0
+    },
+    {
+        "id": 54,
+        "name": "Saint-Fons",
+        "postal_code": "69199",
+        "population": 18802,
+        "surface_area": 6.1,
+        "population_density": 3102.6,
+        "social_housing_rate": 50.2,
+        "poverty_rate": 32,
+        "unemployment_rate": 22.4
+    },
+    {
+        "id": 55,
+        "name": "Saint-Genis-Laval",
+        "postal_code": "69204",
+        "population": 21217,
+        "surface_area": 12.9,
+        "population_density": 1642.2,
+        "social_housing_rate": 17.1,
+        "poverty_rate": 9,
+        "unemployment_rate": 10.4
+    },
+    {
+        "id": 56,
+        "name": "Saint-Genis-les-Ollières",
+        "postal_code": "69205",
+        "population": 4984,
+        "surface_area": 3.7,
+        "population_density": 1332.6,
+        "social_housing_rate": 12.8,
+        "poverty_rate": 5,
+        "unemployment_rate": 8.0
+    },
+    {
+        "id": 57,
+        "name": "Saint-Germain-au-Mont-d'Or",
+        "postal_code": "69207",
+        "population": 3085,
+        "surface_area": 5.4,
+        "population_density": 568.1,
+        "social_housing_rate": 30.2,
+        "poverty_rate": 9,
+        "unemployment_rate": 9.7
+    },
+    {
+        "id": 58,
+        "name": "Saint-Priest",
+        "postal_code": "69290",
+        "population": 46207,
+        "surface_area": 29.7,
+        "population_density": 1555.3,
+        "social_housing_rate": 32.5,
+        "poverty_rate": 18,
+        "unemployment_rate": 13.7
+    },
+    {
+        "id": 59,
+        "name": "Saint-Romain-au-Mont-d'Or",
+        "postal_code": "69233",
+        "population": 1211,
+        "surface_area": 2.6,
+        "population_density": 462.2,
+        "social_housing_rate": 7.6,
+        "poverty_rate": "",
+        "unemployment_rate": 8.3
+    },
+    {
+        "id": 60,
+        "name": "Sathonay-Camp",
+        "postal_code": "69292",
+        "population": 5934,
+        "surface_area": 2.0,
+        "population_density": 3027.6,
+        "social_housing_rate": 28.9,
+        "poverty_rate": 10,
+        "unemployment_rate": 9.8
+    },
+    {
+        "id": 61,
+        "name": "Sathonay-Village",
+        "postal_code": "69293",
+        "population": 2360,
+        "surface_area": 5.2,
+        "population_density": 458.3,
+        "social_housing_rate": 4.0,
+        "poverty_rate": "",
+        "unemployment_rate": 5.9
+    },
+    {
+        "id": 62,
+        "name": "Solaize",
+        "postal_code": "69296",
+        "population": 2922,
+        "surface_area": 8.1,
+        "population_density": 360.7,
+        "social_housing_rate": 3.6,
+        "poverty_rate": "",
+        "unemployment_rate": 7.2
+    },
+    {
+        "id": 63,
+        "name": "Tassin-la-Demi-Lune",
+        "postal_code": "69244",
+        "population": 22297,
+        "surface_area": 7.8,
+        "population_density": 2862.3,
+        "social_housing_rate": 10.9,
+        "poverty_rate": 8,
+        "unemployment_rate": 9.9
+    },
+    {
+        "id": 64,
+        "name": "Vaulx-en-Velin",
+        "postal_code": "69256",
+        "population": 49658,
+        "surface_area": 21.0,
+        "population_density": 2370.3,
+        "social_housing_rate": 54.4,
+        "poverty_rate": 33,
+        "unemployment_rate": 22.1
+    },
+    {
+        "id": 65,
+        "name": "Vénissieux",
+        "postal_code": "69259",
+        "population": 65894,
+        "surface_area": 15.3,
+        "population_density": 4298.4,
+        "social_housing_rate": 49.3,
+        "poverty_rate": 32,
+        "unemployment_rate": 24.0
+    },
+    {
+        "id": 66,
+        "name": "Vernaison",
+        "postal_code": "69260",
+        "population": 4998,
+        "surface_area": 4.0,
+        "population_density": 1240.2,
+        "social_housing_rate": 23.1,
+        "poverty_rate": 11,
+        "unemployment_rate": 9.6
+    },
+    {
+        "id": 67,
+        "name": "Villeurbanne",
+        "postal_code": "69266",
+        "population": 147712,
+        "surface_area": 14.5,
+        "population_density": 10173.0,
+        "social_housing_rate": 27.6,
+        "poverty_rate": 20,
+        "unemployment_rate": 15.6
+    }
 ]
