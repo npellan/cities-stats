@@ -31,66 +31,71 @@
       </div>
       <div class="header__other-infos">
         <p>{{cityStats.population}} hab.</p>
-        <p>{{cityStats.surface_area}} km²</p>
-        <p>{{cityStats.population_density}} hab/km²</p>
+        <p>{{cityStats.surface_area.toString().replace(".", ",")}} km²</p>
+        <p>{{cityStats.population_density.toString().replace(".", ",")}} hab/km²</p>
       </div>
       <div class="social-housing">
-          <svg version="1.1" id="camembert" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-          viewBox="0 0 232 152" enable-background="new 0 0 232 152" xml:space="preserve">
-            <polygon id="Rond_x5F_Bleu" fill="#356A94" points="89.2,68.5 83.2,62.5 74.9,60.3 66.7,62.5 60.7,68.5 58.5,76.8 60.7,85 66.7,91
-            74.9,93.2 83.2,91 89.2,85 91.4,76.8 "/>
-            <!--<polygon id="Rond_x5F_rouge" opacity="0.36" fill="#E0605B" points="139.8,39.3 112.4,11.9 74.9,1.8 37.5,11.9 10,39.3 0,76.8
-            10,114.2 37.5,141.7 74.9,151.7 112.4,141.7 139.8,114.2 149.9,76.8 "/>-->
-            <g id="Toile_arraigné" opacity="0.5">
-            <path opacity="0.1" fill="#4E4E4D" d="M78.9,90H72l-6-3.4l-3.4-6v-6.9l3.4-6l6-3.4h6.9l6,3.4l3.4,6v6.9l-3.4,6L78.9,90z M72.3,89
-            h6.3l5.5-3.2l3.2-5.5V74l-3.2-5.5l-5.5-3.2h-6.3l-5.5,3.2L63.6,74v6.3l3.2,5.5L72.3,89z"/>
-            <path opacity="0.2" fill="#4E4E4D" d="M80.7,96.9H70.1L61,91.6l-5.3-9.2V71.9l5.3-9.2l9.2-5.3h10.6l9.2,5.3l5.3,9.2v10.6l-5.3,9.2
-            L80.7,96.9z M70.4,96h10.1l8.7-5l5-8.7V72.1l-5-8.7l-8.7-5H70.4l-8.7,5l-5,8.7v10.1l5,8.7L70.4,96z"/>
-            <path opacity="0.3" fill="#4E4E4D" d="M82.6,103.9H68.3l-0.1-0.1l-12.3-7.1l-7.2-12.4V70l7.2-12.4l12.4-7.2h14.3L95,57.6l7.2,12.4
-            v14.3L95,96.7L82.6,103.9z M68.6,102.9h13.8L94.3,96l6.9-11.9V70.3l-6.9-11.9l-11.9-6.9H68.6l-11.9,6.9l-6.9,11.9v13.8L56.6,96
-            L68.6,102.9z"/>
-            <path opacity="0.4" fill="#4E4E4D" d="M84.5,110.8h-18l-0.1-0.1l-15.5-9l-9-15.6v-18l0.1-0.1l9-15.5l15.6-9h18l0.1,0.1l15.5,9
-            l9,15.6v18l-0.1,0.1l-9,15.5l-0.1,0.1L84.5,110.8z M66.7,109.8h17.5l15.2-8.8l8.8-15.2V68.4l-8.8-15.2l-15.2-8.8H66.7l-15.2,8.8
-            l-8.8,15.2v17.5l8.8,15.2L66.7,109.8z"/>
-            <path opacity="0.5" fill="#4E4E4D" d="M86.3,117.8H64.6l-0.1-0.1l-18.7-10.8L34.8,88V66.3l0.1-0.1l10.8-18.7l18.8-10.9h21.8
-            l0.1,0.1l18.7,10.8L116,66.3V88l-0.1,0.1l-10.8,18.7l-0.1,0.1L86.3,117.8z M64.8,116.8h21.2l18.4-10.6l10.6-18.4V66.6l-10.6-18.4
-            L86.1,37.6H64.8L46.4,48.2L35.8,66.6v21.2l10.6,18.4L64.8,116.8z"/>
-            <path opacity="0.6" fill="#4E4E4D" d="M88.2,124.7H62.7l-0.1-0.1l-22-12.7L27.9,89.9V64.4l0.1-0.1l12.7-22l22.1-12.7h25.5l0.1,0.1
-            l22,12.7L123,64.4v25.5l-0.1,0.1l-12.7,22l-0.1,0.1L88.2,124.7z M63,123.7h25l21.6-12.5L122,89.6v-25l-12.5-21.6L87.9,30.6H63
-            L41.4,43.1L28.9,64.7v25l12.5,21.6L63,123.7z"/>
-            <path opacity="0.7" fill="#4E4E4D" d="M90,131.7H60.8l-0.1-0.1l-25.2-14.5L21,91.8V62.6l0.1-0.1l14.5-25.2l25.3-14.6H90l0.1,0.1
-            l25.2,14.5l14.6,25.3v29.2l-0.1,0.1l-14.5,25.2l-0.1,0.1L90,131.7z M61.1,130.7h28.7l24.8-14.3L129,91.5V62.8L114.6,38L89.8,23.7
-            H61.1L36.3,38L21.9,62.8v28.7l14.3,24.8L61.1,130.7z"/>
-            <path opacity="0.8" fill="#4E4E4D" d="M91.9,138.6H59l-0.1-0.1l-28.4-16.4L14,93.6V60.7l0.1-0.1l16.4-28.4L59,15.7h32.9l0.1,0.1
-            l28.4,16.4l0.1,0.1l16.4,28.4v32.9l-0.1,0.1l-16.4,28.4l-0.1,0.1L91.9,138.6z M59.2,137.6h32.4l28.1-16.2l16.2-28.1V61l-16.2-28.1
-            L91.6,16.7H59.2L31.2,32.9L15,61v32.4l16.2,28.1L59.2,137.6z"/>
-            <path opacity="0.9" fill="#4E4E4D" d="M93.8,145.5H57.1l-0.1-0.1l-31.6-18.3L7.1,95.5V58.8l0.1-0.1l18.3-31.6L57.1,8.8h36.6
-            l0.1,0.1l31.6,18.3l0.1,0.1l18.3,31.6v36.6l-0.1,0.1l-18.3,31.6l-0.1,0.1L93.8,145.5z M57.4,144.6h36.1l31.3-18.1l18.1-31.3V59.1
-            l-18.1-31.3L93.5,9.8H57.4L26.1,27.8L8.1,59.1v36.1l18.1,31.3L57.4,144.6z"/>
-            <path fill="#4E4E4D" d="M95.6,152.5H55.3l-0.1-0.1l-34.8-20.1l-20.2-35V57l0.1-0.1L20.3,22l35-20.2h40.4l0.1,0.1L130.6,22l0.1,0.1
-            L150.8,57v40.4l-0.1,0.1l-20.1,34.8l-0.1,0.1L95.6,152.5z M55.5,151.5h39.8l34.5-19.9l19.9-34.5V57.3l-19.9-34.5L95.4,2.8H55.5
-            L21,22.8L1.1,57.3v39.8L21,131.6L55.5,151.5z"/>
+        <div class="radar">
+          <div class="chart">
+            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+          y="0px" viewBox="0 0 160.3 152" style="enable-background:new 0 0 160.3 152;" xml:space="preserve">
+
+            <polygon id="Rond_x5F_Bleu_1_" class="st0" points="106.1,67.4 96.1,53.8 80.1,48.5 64,53.8 54,67.4 54,84.4 64,98 80.1,103.3
+            96.1,98 106.1,84.4 "/>
+            <g id="Toile_arraigné_1_">
+              <path class="st1" d="M104.9,152.2H55.4l-0.2-0.1l-39.9-29L0,75.9l15.3-47.1l0.2-0.1l39.9-29h49.5l0.2,0.1l39.9,29l15.3,47.1
+              L145,123L104.9,152.2z M55.8,150.8h48.7l39.4-28.6l15-46.3l-15-46.3L104.5,1H55.8L16.4,29.6l-15,46.3l15,46.3L55.8,150.8z"/>
+              <path class="st2" d="M102.6,145.1h-45l-0.2-0.1l-36.2-26.3l-0.1-0.2L7.3,75.9l0.1-0.2l13.8-42.6l0.2-0.1L57.6,6.7h45l0.2,0.1
+              L139,33.1l0.1,0.2l13.8,42.6l-0.1,0.2L139,118.7L102.6,145.1z M58.1,143.8h44.1l35.7-25.9l13.6-42l-13.6-42L102.2,8H58.1L22.4,34
+              L8.8,76l13.6,42L58.1,143.8z"/>
+              <path class="st3" d="M100.3,138.1H59.9l-0.1-0.1l-32.5-23.6l-0.1-0.2L14.7,75.9l0.1-0.2l12.4-38.2l0.2-0.1l32.5-23.6h40.4l0.2,0.1
+              L133,37.5l0.1,0.2l12.4,38.2l-0.1,0.2L133,114.3L100.3,138.1z M60.3,136.8h39.6l32-23.3l12.2-37.6l-12.2-37.6L99.9,15H60.3
+              l-32,23.3L16.1,75.9l12.2,37.6L60.3,136.8z"/>
+              <path class="st4" d="M98.1,131.1H62.2L62,131l-28.8-21L22.1,75.9l11.1-34.1l0.2-0.1l28.8-21h35.9l29,21.1l11.1,34.1L127.1,110
+              L98.1,131.1z M62.6,129.8h35l28.3-20.6l10.9-33.3L126,42.6L97.6,22h-35L34.3,42.6L23.5,75.9l10.8,33.3L62.6,129.8z"/>
+              <path class="st5" d="M95.8,124.1H64.5l-0.2-0.1l-25.2-18.3l-9.7-29.8l9.7-29.8l0.2-0.1l25.2-18.3h31.3l0.2,0.1l25.2,18.3l9.7,29.8
+              l-9.7,29.8L95.8,124.1z M64.9,122.8h30.5l24.7-17.9l9.4-29l-9.4-29L95.4,29H64.9L40.2,46.9l-9.4,29l9.4,29L64.9,122.8z"/>
+              <path class="st6" d="M93.5,117.1H66.8l-0.2-0.1l-21.5-15.6l-0.1-0.2L36.8,76l8.3-25.4l21.7-15.8h26.7l21.6,15.7l0.1,0.2l8.2,25.2
+              l-8.3,25.4l-0.2,0.1L93.5,117.1z M67.2,115.8h25.9l21-15.2l8-24.7l-8-24.7L93.1,36H67.2l-21,15.2l-8,24.7l8,24.7L67.2,115.8z"/>
+              <path class="st7" d="M91.2,110.1H69L51.1,97l-6.9-21.1l6.9-21.1l17.9-13h22.2l17.9,13l0.1,0.2l6.8,20.9L109.2,97L91.2,110.1z
+                M69.4,108.8h21.4l17.3-12.6l6.6-20.3l-6.6-20.3L90.8,43H69.4L52.1,55.6l-6.6,20.3l6.6,20.3L69.4,108.8z"/>
+              <path class="st8" d="M88.9,103H71.3L57.1,92.7l-5.4-16.8l5.4-16.8l14.3-10.4H89l14.3,10.4l5.4,16.8l-5.4,16.8L88.9,103z
+                M71.7,101.8h16.8l13.6-9.9l5.2-16l-5.2-16L88.5,50H71.7l-13.6,9.9l-5.2,16l5.2,16L71.7,101.8z"/>
+              <path class="st9" d="M86.7,96H73.6L63,88.3l-4-12.4l4-12.4l10.6-7.7h13.1l10.6,7.7l4,12.4l-4,12.4L86.7,96z M74,94.8h12.3l9.9-7.2
+              l3.8-11.7l-3.8-11.7L86.3,57H74l-9.9,7.2l-3.8,11.7l3.8,11.7L74,94.8z"/>
+              <path class="st10" d="M84.4,89h-8.5L69,84l-2.6-8.1l2.6-8.1l6.9-5h8.5l6.9,5l2.6,8.1L91.3,84L84.4,89z M76.3,87.8H84l6.3-4.5
+              l2.4-7.3l-2.4-7.3L84,64.2h-7.7l-6.2,4.5L67.7,76l2.4,7.3L76.3,87.8z"/>
             </g>
-            <polygon id="Toile_x5F_dessus" fill="#4E4E4D" points="150.3,57.3 150.2,57 76,76.9 130.3,22.5 130.1,22.3 75.8,76.6 95.7,2.4
-            95.3,2.3 75.4,76.5 55.6,2.3 55.2,2.4 75.1,76.6 20.8,22.3 20.5,22.5 74.9,76.9 0.7,57 0.6,57.3 74.8,77.2 0.6,97.1 0.7,97.4
-            74.9,77.5 20.5,131.8 20.8,132.1 75.1,77.7 55.2,152 55.6,152 75.4,77.8 95.3,152 95.7,152 75.8,77.7 130.1,132.1 130.3,131.8
-            76,77.5 150.2,97.4 150.3,97.1 76.1,77.2 "/>
-            <path id="Trace_x5F_bleu" fill="none" stroke="#356A94" stroke-width="1.3132" stroke-linecap="round" stroke-miterlimit="10" d="
-            M75.4,77.2c33.2,17.4,118.3,52.2,155.8,52.2h0"/>
-            <path id="Trace_x5F_rouge" fill="none" stroke="#E0605B" stroke-width="1.3132" stroke-linecap="round" stroke-miterlimit="10" d="
-            M75.4,77.2C108.6,59.8,193.8,25,231.2,25h0"/>
-          </svg>
-          <div class="red" :style="socialHousingRatePolygon"></div>
-          <div class="radar__legend">
-            <p class="radar__legend__own-number">{{cityStats.social_housing_rate.toFixed(0)}}% de logements sociaux</p>
-            <p class="radar__legend__objective22">22% objectif 2022</p>
+            <g id="Toile_x5F_dessus_1_" class="st11">
+              <rect x="80" y="-3.5" transform="matrix(0.9511 -0.309 0.309 0.9511 -19.5446 28.4853)" class="st1" width="0.3" height="158.9"/>
+
+              <rect x="0.7" y="75.8" transform="matrix(0.8077 -0.5896 0.5896 0.8077 -29.353 61.8647)" class="st1" width="158.9" height="0.3"/>
+              <rect x="0.7" y="75.8" class="st1" width="158.9" height="0.3"/>
+
+              <rect x="0.7" y="75.8" transform="matrix(0.3056 -0.9522 0.9522 0.3056 -16.6112 129.0379)" class="st1" width="158.9" height="0.3"/>
+              <rect x="80" y="-3.5" transform="matrix(0.5878 -0.809 0.809 0.5878 -28.3837 96.1504)" class="st1" width="0.3" height="158.9"/>
+            </g>
+            </svg>
           </div>
+          <div class="red" :style="socialHousingRatePolygon"></div>
+          <div class="lines">
+            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+          viewBox="0 0 232 152" style="enable-background:new 0 0 232 152;" xml:space="preserve">
+              <path id="Trace_x5F_bleu" class="line--blue" d="M37.6,75.5c33.2,17.4,118.3,52.2,155.8,52.2l0,0"/>
+              <path id="Trace_x5F_rouge" class="line--red" d="M37.6,75.5C70.8,58.1,156,23.3,193.4,23.3l0,0"/>
+            </svg>
+          </div>
+        </div>
+        <div class="radar__legend">
+          <p class="radar__legend__own-number">{{cityStats.social_housing_rate.toFixed(0)}}% de logements sociaux</p>
+          <p class="radar__legend__objective22">22% objectif 2022</p>
+        </div>
       </div>
-      <div class="social-housing-legend">
-        <div class="social-housing-legend--blue">
+      <div class="social-housing__legend">
+        <div class="social-housing__legend--blue">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. A voluptate recusandae temporibus facilis ut obcaecati dolorum fugiat ullam laborum culpa eligendi, velit minima, incidunt debitis magnam esse! Repellendus, beatae reiciendis.
         </div>
-        <div class="social-housing-legend--red">
+        <div class="social-housing__legend--red">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. A voluptate recusandae temporibus facilis ut obcaecati dolorum fugiat ullam laborum culpa eligendi, velit minima, incidunt debitis magnam esse! Repellendus, beatae reiciendis.
         </div>
       </div>
@@ -154,8 +159,8 @@ export default {
       return `
       width: ${this.cityStats.social_housing_rate * 1.5}px;
       height: ${this.cityStats.social_housing_rate * 1.5}px;
-      top: calc(76px - (${this.cityStats.social_housing_rate * 0.75}px);
-      left: calc(76px - (${this.cityStats.social_housing_rate * 0.75}px);
+      top: calc(75px - (${this.cityStats.social_housing_rate * 0.75}px);
+      left: calc(80.15px - (${this.cityStats.social_housing_rate * 0.75}px);
       `;
     },
     povertyRateOutOfTen() {
@@ -201,6 +206,18 @@ export default {
     border-bottom: 3px solid var(--v-color-base);
     padding: 1rem 0;
 
+    @media screen and (max-width: 550px) {
+      flex-direction: column;
+
+      &__infos {
+        display: flex;
+
+        & p {
+          margin: 0 1rem;
+        }
+      }
+    }
+
       &__name {
         font-size: 1.75rem;
         font-weight: 500;
@@ -223,36 +240,93 @@ export default {
       position: relative;
       display: flex;
 
-      & svg {
-        max-width: 232px;
+      .radar {
+        position: relative;
+
+        & .chart, & .chart svg {
+          width: 160.3px;
+          height: 152px;
+        }
+
+        .red {
+          clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%);
+          background-color: #E0605B;
+          opacity: 0.45;
+          position: absolute;
+        }
+
+        & .lines, & .lines svg {
+          position: absolute;
+          width: 232px;
+          height: 152px;
+          top: 0px;
+          left: 21px;
+
+          .line--blue {
+            fill:none;stroke:#356A94;stroke-width:1.3132;stroke-linecap:round;stroke-miterlimit:10;
+          }
+
+          .line--red {
+            fill:none;stroke:#E0605B;stroke-width:1.3132;stroke-linecap:round;stroke-miterlimit:10;
+          }
+        }
       }
 
-      .red {
-        clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%);
-        background-color: red;
-        position: absolute;
-        opacity: 0.3;
+      @media screen and (max-width: 550px) {
+        align-items: center;
+        flex-direction: column;
+
+        & .radar {
+
+          & .lines {
+            transform: rotate(90deg);
+            top: -22px;
+            left: -35px;
+            height: 232px;
+            width: 152px;
+          }
+        }
       }
 
       .radar__legend {
-        position: relative;
-        margin-left: 1rem;
+        margin-left: 6rem;
 
         &__own-number {
           position: absolute;
-          top: 10px;
+          top: 9px;
           width: 200px;
         }
 
         &__objective22 {
           position: absolute;
-          top: 115px;
+          top: 114px;
           width: 200px;
+        }
+
+        @media screen and (max-width: 550px) {
+          margin-left: 0;
+          margin-top: 6rem;
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          text-align: center;
+
+          &__own-number {
+            position: relative;
+            top: 0;
+            order: 2;
+            width: inherit;
+          }
+
+          &__objective22 {
+            position: relative;
+            top: 0;
+            width: inherit;
+          }
         }
       }
     }
 
-    .social-housing-legend {
+    .social-housing__legend {
       display: grid;
       grid-template-columns: 1fr 1fr;
       column-gap: 2rem;
@@ -288,5 +362,19 @@ export default {
       }
     }
   }
+
+  .st0{fill:#356A94;}
+  .st1{fill:#4E4E4D;}
+  .st2{opacity:0.9;fill:#4E4E4D;enable-background:new    ;}
+  .st3{opacity:0.8;fill:#4E4E4D;enable-background:new    ;}
+  .st4{opacity:0.7;fill:#4E4E4D;enable-background:new    ;}
+  .st5{opacity:0.6;fill:#4E4E4D;enable-background:new    ;}
+  .st6{opacity:0.5;fill:#4E4E4D;enable-background:new    ;}
+  .st7{opacity:0.4;fill:#4E4E4D;enable-background:new    ;}
+  .st8{opacity:0.3;fill:#4E4E4D;enable-background:new    ;}
+  .st9{opacity:0.2;fill:#4E4E4D;enable-background:new    ;}
+  .st10{opacity:0.1;fill:#4E4E4D;enable-background:new    ;}
+  .st11{opacity:0.5;}
+  .st12{opacity:0.45;fill:#E0605B;enable-background:new    ;}
 
 </style>
