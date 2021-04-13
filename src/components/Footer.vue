@@ -1,6 +1,6 @@
 <template>
   <footer class="footer">
-    <p>©️ Inégalités et territoires - Mentions légales</p>
+    <p>©️ Inégalités et territoires - 2021</p>
   </footer>
 </template>
 

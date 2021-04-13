@@ -1,6 +1,19 @@
+<!-- eslint-disable max-len --->
 <template>
   <main class="methodo">
-      <h1>Bienvenue sur la page methodo</h1>
+    <h1>Méthodologie</h1>
+    <h2>Lorem ipsum</h2>
+    <p>
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore tenetur sequi ab, doloremque maxime minus delectus qui obcaecati facilis voluptatibus, et perferendis odio deleniti excepturi repellat iusto sapiente consequatur recusandae!
+    </p>
+    <h2>Lorem ipsum</h2>
+    <p>
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore tenetur sequi ab, doloremque maxime minus delectus qui obcaecati facilis voluptatibus, et perferendis odio deleniti excepturi repellat iusto sapiente consequatur recusandae!
+    </p>
+    <h2>Lorem ipsum</h2>
+    <p>
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore tenetur sequi ab, doloremque maxime minus delectus qui obcaecati facilis voluptatibus, et perferendis odio deleniti excepturi repellat iusto sapiente consequatur recusandae!
+    </p>
   </main>
 </template>
 
