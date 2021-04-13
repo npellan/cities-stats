@@ -1,12 +1,12 @@
 <!-- eslint-disable max-len --->
 <template>
   <main class="home">
-      <h1>Inégalités et territoires</h1>
-      <h2>Comparez les statistiques dans les 57 communes du Grand Lyon</h2>
-      <p>
+      <h1 class="title">Inégalités et territoires</h1>
+      <h2 class="subtitle">Comparez les statistiques dans les 57 communes du Grand Lyon</h2>
+      <p class="text">
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore tenetur sequi ab, doloremque maxime minus delectus qui obcaecati facilis voluptatibus, et perferendis odio deleniti excepturi repellat iusto sapiente consequatur recusandae!
       </p>
-      <button><router-link to="/carte">Accéder aux stats</router-link></button>
+      <router-link to="/carte" class="link"><button class="button">Accéder aux stats</button></router-link>
   </main>
 </template>
 
@@ -44,12 +44,11 @@ export default {
         color: var(--v-background-base);
         background-color: var(--v-color-base);
       }
-
-      & a {
-        color:inherit;
-        text-decoration: none;
-      }
     }
 
+    & .link {
+      color: var(--v-color-base);
+      text-decoration: none;
+    }
   }
 </style>

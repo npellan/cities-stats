@@ -38,7 +38,8 @@ export default {
   line-height: 1;
 
   & img {
-  width: 100%;
+    width: 300px;
+    height: 42px;
   }
 
   @media screen and (max-width: 767px) {
