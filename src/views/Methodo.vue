@@ -26,6 +26,8 @@ export default {
 <style lang="scss">
   .methodo {
     font-family: 'Playfair Display', serif;
+    width: 80%;
+    margin: 0 auto;
 
     h1 {
       text-align:center;
