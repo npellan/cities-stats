@@ -371,6 +371,7 @@ export default {
     selectCity(event) {
       event.target.setAttribute('class', 'active');
       this.$store.commit('SELECT_CITY', parseInt(event.target.id, 10));
+      document.querySelector('.stats').scrollIntoView();
     },
   },
   computed: {
@@ -390,18 +391,17 @@ export default {
     align-items: center;
 
     @media screen and (max-width: 1024px) {
-        width: 100%;
+      width: 100%;
     }
-
   }
 
   .map svg {
-  margin-bottom: 4rem;
-  max-height: 80vh;
+    margin-bottom: 4rem;
+    max-height: 60vh;
 
     path:hover {
-    fill: #4e4e4d;
-    cursor: pointer;
+      fill: #4e4e4d;
+      cursor: pointer;
     }
 
     .active {
@@ -418,7 +418,7 @@ export default {
 
     &__text {
       font-family: 'Playfair Display', sans-serif;
-      font-size: 0.5rem;
+      font-size: 0.8rem;
     }
 
     &__colors {

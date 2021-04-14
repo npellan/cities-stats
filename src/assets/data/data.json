@@ -331,7 +331,7 @@
     },
     {
         "id": 31,
-        "name": "Lyon 1er Arrondissement",
+        "name": "Lyon 1er",
         "postal_code": "69381",
         "population": 29352,
         "surface_area": 1.5,
@@ -342,7 +342,7 @@
     },
     {
         "id": 32,
-        "name": "Lyon 2e Arrondissement",
+        "name": "Lyon 2e",
         "postal_code": "69382",
         "population": 30520,
         "surface_area": 3.4,
@@ -353,7 +353,7 @@
     },
     {
         "id": 33,
-        "name": "Lyon 3e Arrondissement",
+        "name": "Lyon 3e",
         "postal_code": "69383",
         "population": 101744,
         "surface_area": 6.4,
@@ -364,7 +364,7 @@
     },
     {
         "id": 34,
-        "name": "Lyon 4e Arrondissement",
+        "name": "Lyon 4e",
         "postal_code": "69384",
         "population": 35949,
         "surface_area": 2.9,
@@ -375,7 +375,7 @@
     },
     {
         "id": 35,
-        "name": "Lyon 5e Arrondissement",
+        "name": "Lyon 5e",
         "postal_code": "69385",
         "population": 49409,
         "surface_area": 6.2,
@@ -386,7 +386,7 @@
     },
     {
         "id": 36,
-        "name": "Lyon 6e Arrondissement",
+        "name": "Lyon 6e",
         "postal_code": "69386",
         "population": 51777,
         "surface_area": 3.8,
@@ -397,7 +397,7 @@
     },
     {
         "id": 37,
-        "name": "Lyon 7e Arrondissement",
+        "name": "Lyon 7e",
         "postal_code": "69387",
         "population": 81566,
         "surface_area": 9.8,
@@ -408,7 +408,7 @@
     },
     {
         "id": 38,
-        "name": "Lyon 8e Arrondissement",
+        "name": "Lyon 8e",
         "postal_code": "69388",
         "population": 85088,
         "surface_area": 6.7,
@@ -419,7 +419,7 @@
     },
     {
         "id": 39,
-        "name": "Lyon 9e Arrondissement",
+        "name": "Lyon 9e",
         "postal_code": "69389",
         "population": 50687,
         "surface_area": 7.3,

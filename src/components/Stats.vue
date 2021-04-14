@@ -93,10 +93,10 @@
       </div>
       <div class="social-housing__legend">
         <div class="social-housing__legend--blue">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. A voluptate recusandae temporibus facilis ut obcaecati dolorum fugiat ullam laborum culpa eligendi, velit minima, incidunt debitis magnam esse! Repellendus, beatae reiciendis.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
         </div>
         <div class="social-housing__legend--red">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. A voluptate recusandae temporibus facilis ut obcaecati dolorum fugiat ullam laborum culpa eligendi, velit minima, incidunt debitis magnam esse! Repellendus, beatae reiciendis.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
         </div>
       </div>
       <div class="numbers">
@@ -182,17 +182,8 @@ export default {
 
     @media screen and (max-width: 1024px) {
       width: 100%;
-      order: -1;
       margin-bottom: 5rem;
     }
-  }
-
-  .v-rating .v-icon {
-    padding: 0;
-  }
-
-  .city__poverty__icons .v-icon, .city__unemployment__icons .v-icon {
-    margin: -5px;
   }
 
   .city {
@@ -212,15 +203,17 @@ export default {
       &__infos {
         display: flex;
 
-        & p {
-          margin: 0 1rem;
+        &__postal-code, &__altitude {
+          margin: 0 0.7rem;
         }
       }
     }
 
       &__name {
-        font-size: 1.75rem;
+        font-size: 2rem;
         font-weight: 500;
+        max-width: 300px;
+        line-height: 1;
       }
 
       &__other-infos {
@@ -301,17 +294,18 @@ export default {
 
       .radar__legend {
         margin-left: 6rem;
+        font-size: 2rem;
+        line-height: 1;
 
         &__own-number {
           position: absolute;
-          top: 9px;
-          width: 200px;
+          color: #E0605B;
         }
 
         &__objective22 {
           position: absolute;
-          top: 114px;
-          width: 200px;
+          top: 107px;
+          color: #356A94;
         }
 
         @media screen and (max-width: 550px) {
@@ -320,6 +314,7 @@ export default {
           display: grid;
           grid-template-columns: 1fr 1fr;
           text-align: center;
+          font-size: 1.5rem;
 
           &__own-number {
             position: relative;
@@ -342,6 +337,14 @@ export default {
       grid-template-columns: 1fr 1fr;
       column-gap: 2rem;
       margin-bottom: 3rem;
+
+      &--red {
+        color: #E0605B;
+      }
+
+      &--blue {
+        color: #356A94;
+      }
     }
 
     .numbers {
@@ -364,12 +367,18 @@ export default {
       &__unemployment__legend, &__poverty__legend {
         font-family: 'Playfair Display', sans-serif;
         font-weight: 400;
-        font-size: 0.5rem;
-        margin-bottom: 0;
+        font-size: 0.8rem;
+        margin: 0 auto;
+        width: 50%;
 
         @media screen and (max-width: 600px) {
           margin-bottom: 1rem;
         }
+      }
+
+      .v-rating .v-icon {
+        padding: 0;
+        margin: -5px;
       }
     }
   }

@@ -20,6 +20,10 @@ export default {
 </script>
 
 <style lang="scss">
+  html {
+    scroll-behavior: smooth;
+  }
+
   body {
     background-color: #ebebe3;
     color: #4e4e4d;

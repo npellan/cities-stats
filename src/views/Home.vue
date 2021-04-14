@@ -1,11 +1,7 @@
 <!-- eslint-disable max-len --->
 <template>
   <main class="home">
-      <h1 class="title">Inégalités et territoires</h1>
-      <h2 class="subtitle">Comparez les statistiques dans les 57 communes du Grand Lyon</h2>
-      <p class="text">
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore tenetur sequi ab, doloremque maxime minus delectus qui obcaecati facilis voluptatibus, et perferendis odio deleniti excepturi repellat iusto sapiente consequatur recusandae!
-      </p>
+      <h1 class="big-title">Comparez les statistiques sociales dans les 57 communes du Grand Lyon</h1>
       <router-link to="/carte" class="link"><button class="button">Accéder aux stats</button></router-link>
   </main>
 </template>
