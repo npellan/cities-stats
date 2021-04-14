@@ -23,9 +23,13 @@ export default {
 };
 </script>
 
-<style>
-  .methodo h1 {
-    text-align: center;
-    font-size: 3rem;
+<style lang="scss">
+  .methodo {
+    font-family: 'Playfair Display', serif;
+
+    h1 {
+      text-align:center;
+      font-size: 3rem;
+    }
   }
 </style>

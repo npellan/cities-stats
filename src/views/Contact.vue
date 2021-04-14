@@ -23,9 +23,13 @@ export default {
 };
 </script>
 
-<style>
-  .contact h1 {
-    text-align: center;
-    font-size: 3rem;
+<style lang="scss">
+  .contact {
+    font-family: 'Playfair Display', serif;
+
+    h1 {
+      text-align: center;
+      font-size: 3rem;
+    }
   }
 </style>

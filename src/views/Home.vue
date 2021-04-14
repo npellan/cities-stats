@@ -15,9 +15,17 @@ export default {
 <style lang="scss">
   .home {
     text-align: center;
+    font-family: 'Playfair Display', serif;
 
     h1 {
       font-size: 3rem;
+      width: 50%;
+      margin: 0 auto;
+      line-height: 1;
+
+      @media screen and (max-width: 550px) {
+        font-size: 1.75rem;
+      }
     }
 
     h2 {

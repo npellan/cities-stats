@@ -182,7 +182,6 @@ export default {
 
     @media screen and (max-width: 1024px) {
       width: 100%;
-      margin-bottom: 5rem;
     }
   }
 
