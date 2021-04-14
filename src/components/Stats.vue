@@ -157,10 +157,10 @@ export default {
     },
     socialHousingRatePolygon() {
       return `
-      width: ${this.cityStats.social_housing_rate * 1.5}px;
-      height: ${this.cityStats.social_housing_rate * 1.5}px;
-      top: calc(75px - (${this.cityStats.social_housing_rate * 0.75}px);
-      left: calc(80.15px - (${this.cityStats.social_housing_rate * 0.75}px);
+      width: ${this.cityStats.social_housing_rate * 2.5}px;
+      height: ${this.cityStats.social_housing_rate * 2.5}px;
+      top: calc(76px - (${this.cityStats.social_housing_rate * 1.25}px);
+      left: calc(80.15px - (${this.cityStats.social_housing_rate * 1.25}px);
       `;
     },
     povertyRateOutOfTen() {
@@ -249,7 +249,18 @@ export default {
         }
 
         .red {
-          clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%);
+          clip-path: polygon(
+            34.54915% 2.44717%,
+            65.45085% 2.44717%,
+            90.45085% 20.61074%,
+            100% 50%,
+            90.45085% 79.38926%,
+            65.45085% 97.55283%,
+            34.54915% 97.55283%,
+            9.54915% 79.38926%,
+            0% 50%,
+            9.54915% 20.61074%
+          );
           background-color: #E0605B;
           opacity: 0.45;
           position: absolute;
