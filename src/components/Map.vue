@@ -359,7 +359,7 @@
     <div class="legend">
       <p class="legend__text">0% de logements sociaux</p>
       <div class="legend__colors"></div>
-      <p class="legend__text">60% de logements sociaux</p>
+      <p class="legend__text">+ de 60% de logements sociaux</p>
     </div>
   </div>
 </template>
@@ -371,7 +371,9 @@ export default {
     selectCity(event) {
       event.target.setAttribute('class', 'active');
       this.$store.commit('SELECT_CITY', parseInt(event.target.id, 10));
-      document.querySelector('.stats').scrollIntoView();
+      if (window.matchMedia('(max-width: 1024px)').matches) {
+        document.querySelector('.stats').scrollIntoView();
+      }
     },
   },
   computed: {

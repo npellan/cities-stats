@@ -87,8 +87,8 @@
           </div>
         </div>
         <div class="radar__legend">
-          <p class="radar__legend__own-number">{{cityStats.social_housing_rate.toFixed(0)}}% de logements sociaux</p>
-          <p class="radar__legend__objective22">22% objectif 2022</p>
+          <p class="radar__legend__own-number"><span class="oswald">{{cityStats.social_housing_rate.toFixed(0)}}%</span> de logements sociaux</p>
+          <p class="radar__legend__objective22"><span class="oswald">25%</span> objectif 2025</p>
         </div>
       </div>
       <div class="social-housing__legend">
@@ -102,7 +102,7 @@
       <div class="numbers">
         <div class="numbers__poverty">
           <p class="numbers__poverty__rate">
-            {{ cityStats.poverty_rate !== null ? cityStats.poverty_rate : '-' }}%
+            {{ cityStats.poverty_rate !== null ? cityStats.poverty_rate.toFixed(0) : '-' }}%
           </p>
           <v-rating
             v-model="povertyRateOutOfTen"
@@ -121,7 +121,7 @@
         </div>
         <div class="numbers__unemployment">
           <p class="numbers__unemployment__rate">
-            {{ cityStats.unemployment_rate }}%
+            {{ cityStats.unemployment_rate.toFixed(0) }}%
           </p>
           <v-rating
             v-model="unemploymentRateOutOfTen"
@@ -195,6 +195,7 @@ export default {
     border-top: 3px solid var(--v-color-base);
     border-bottom: 3px solid var(--v-color-base);
     padding: 1rem 0;
+    min-height: 102px;
 
     @media screen and (max-width: 550px) {
       flex-direction: column;
@@ -256,6 +257,7 @@ export default {
           background-color: #E0605B;
           opacity: 0.45;
           position: absolute;
+          transform: rotate(90deg);
         }
 
         & .lines, & .lines svg {
@@ -293,18 +295,22 @@ export default {
 
       .radar__legend {
         margin-left: 6rem;
-        font-size: 2rem;
         line-height: 1;
 
         &__own-number {
           position: absolute;
           color: #E0605B;
+          top: 13px;
         }
 
         &__objective22 {
           position: absolute;
-          top: 107px;
+          top: 118px;
           color: #356A94;
+        }
+
+        & .oswald {
+          font-family: 'Oswald', sans-serif;
         }
 
         @media screen and (max-width: 550px) {
@@ -313,7 +319,6 @@ export default {
           display: grid;
           grid-template-columns: 1fr 1fr;
           text-align: center;
-          font-size: 1.5rem;
 
           &__own-number {
             position: relative;

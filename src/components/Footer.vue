@@ -14,7 +14,7 @@ export default {
 <style scoped lang="scss">
   .footer {
     font-family: 'Playfair Display', serif;
-    margin-top: 3rem;
+    margin-top: 8rem;
     text-align: center;
   }
 </style>

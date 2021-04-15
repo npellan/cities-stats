@@ -25,7 +25,7 @@ export default {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 3rem 0 7rem;
+  margin: 3rem 0 8rem;
   line-height: 1;
 
   @media screen and (max-width: 767px) {
@@ -40,6 +40,10 @@ export default {
   & img {
     width: 300px;
     height: 42px;
+
+    @media screen and (max-width: 375px) {
+    width: 260px;
+  }
   }
 
   @media screen and (max-width: 767px) {
@@ -65,6 +69,10 @@ export default {
 
       @media screen and (max-width: 767px) {
         padding: 1.5rem;
+      }
+
+      @media screen and (max-width: 375px) {
+        padding: 0.8rem;
       }
 
       &:hover {
